@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<meta name="format-detection" content="telephone=no">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+	<header class="header" id="header">
+		<div class="header__block">
+			<div class="header-top">
+				<a href="#" class="header-top__logo">
+					<img src="img/header/logo.png" alt="лого skinelly">
+				</a>
+				<div class="header-top__contacts">
+					<a href="#" target="_blank" class="header-top__link">
+						<img src="img/header/company-logo.svg" alt="лого">
+					</a>
+					<a href="tel:88007004641" class="header-top__phone"><span>8 (800)</span> 700-46-41</a>
+					<button class="header-top__btn btn-1">заказать обратный звонок</button>
+				</div>
+			</div>
+			<nav class="navbar navbar-expand-lg main-navigation">
+				<button class="navbar-toggler" type="button">
+					<span class="navbar-toggler-icon">
+						<svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<g clip-path="url(#clip0_2001_933)">
+								<path
+									d="M4.66699 20.1482V18.9816H23.3337V20.1482H4.66699ZM4.66699 14.5832V13.4166H23.3337V14.5832H4.66699ZM4.66699 9.01823V7.85156H23.3337V9.01823H4.66699Z"
+									fill="white" />
+							</g>
+							<defs>
+								<clipPath id="clip0_2001_933">
+									<rect width="28" height="28" fill="white" />
+								</clipPath>
+							</defs>
+						</svg>
+					</span>
+				</button>
+				<div class="order-lg-2 sidebar d-lg-flex">
+					<div class="sidebar__header d-lg-none">
+						<a href="#" class="header-top__logo">
+							<img src="img/footer/logo.png" alt="лого skinelly">
+						</a>
+						<button type="button" class="sidebar-close d-lg-none" aria-label="Закрыть">
+							<svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path
+									d="M8.05116 20.8053L7.19482 19.9571L13.1437 14.0001L7.19482 8.07345L8.05116 7.22412L14 13.1718L19.9197 7.22529L20.776 8.07345L14.8272 14.0001L20.776 19.9571L19.9197 20.8053L14 14.86L8.05116 20.8053Z"
+									fill="white" />
+							</svg>
+						</button>
+					</div>
+					<ul class="navbar-nav">
+						<li class="nav-item">
+							<a class="nav-link" href="#">О SkinElly</a>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+								aria-expanded="false">
+								<div class="nav-link-icon box">
+									<img src="img/header/dropdown-icon-1.png" alt="иконка">
+								</div>
+								Косметология
+							</a>
+							<ul class="dropdown-menu">
+								<li><a class="dropdown-item" href="#">Биоревитализанты</a></li>
+								<li><a class="dropdown-item" href="#">Префиллеры</a></li>
+								<li><a class="dropdown-item" href="#">Филлеры</a></li>
+								<li><a class="dropdown-item" href="#">спикеры</a></li>
+								<li><a class="dropdown-item" href="#">Сертификаты</a></li>
+							</ul>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+								aria-expanded="false">
+								<div class="nav-link-icon box">
+									<img src="img/header/dropdown-icon-2.png" alt="иконка">
+								</div>
+								Гинекология
+							</a>
+							<ul class="dropdown-menu">
+								<li><a class="dropdown-item" href="#">Биоревитализанты</a></li>
+								<li><a class="dropdown-item" href="#">Префиллеры</a></li>
+								<li><a class="dropdown-item" href="#">Филлеры</a></li>
+								<li><a class="dropdown-item" href="#">спикеры</a></li>
+								<li><a class="dropdown-item" href="#">Сертификаты</a></li>
+							</ul>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Мероприятия</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Спикеры</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Новости</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Блог</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Видео</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Контакты</a>
+						</li>
+					</ul>
+					<div class="sidebar__contacts d-lg-none">
+						<a href="tel:88007004641" class="header-top__phone"><span>8 (800)</span> 700-46-41</a>
+						<button class="header-top__btn btn-1">заказать обратный звонок</button>
+					</div>
+				</div>
+			</nav>
+		</div>
+	</header>
+
+	<main>
+		<section class="breadcrumbs">
+			<div class="container">
+				<div class="breadcrumbs__block">
+					<h1 class="title-page">Спикеры</h1>
+					<nav aria-label="breadcrumb">
+						<ol class="breadcrumb">
+							<li class="breadcrumb-item"><a href="#">Главная</a></li>
+							<li class="breadcrumb-item"><a href="#">Мероприятия</a></li>
+							<li class="breadcrumb-item active" aria-current="page">Спикеры</li>
+						</ol>
+					</nav>
+				</div>
+			</div>
+		</section>
+
+		<section class="speakers">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-12">
+						<div class="speakers__block">
+							<ul class="nav nav-tabs" id="myTab" role="tablist">
+								<li class="nav-item" role="presentation">
+									<button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane"
+										type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">
+										<span class="speakers-nav__name">Все спикеры</span>
+										<span class="speakers-nav__arrow">
+											<svg width="120" height="120" viewBox="0 0 120 120" fill="none"
+												xmlns="http://www.w3.org/2000/svg">
+												<g clip-path="url(#clip0_138_7554)">
+													<path
+														d="M71.6508 73.7926L43.0091 45.1509C42.6577 44.7994 42.4811 44.3869 42.4795 43.9134C42.4778 43.4399 42.6544 43.0274 43.0091 42.676C43.3638 42.3245 43.7763 42.148 44.2465 42.1464C44.7168 42.1447 45.1293 42.3212 45.484 42.676L74.1257 71.3177L74.1232 52.8329C74.1249 52.3494 74.2841 51.9394 74.6009 51.6028C74.9177 51.2663 75.3425 51.0922 75.8754 51.0806C76.4232 51.0807 76.8563 51.2366 77.1747 51.5484C77.4932 51.8602 77.654 52.2884 77.6573 52.8329L77.6573 74.5276C77.6573 74.9566 77.588 75.3278 77.4495 75.6413C77.3109 75.9548 77.1087 76.2443 76.8431 76.51C76.5775 76.7756 76.2879 76.9777 75.9744 77.1163C75.6609 77.2549 75.2889 77.325 74.8583 77.3267L53.166 77.3242C52.6842 77.3242 52.2717 77.1642 51.9286 76.8441C51.5854 76.524 51.4138 76.0901 51.4138 75.5423C51.422 75.0061 51.5804 74.5804 51.889 74.2653C52.1975 73.9501 52.6232 73.7917 53.166 73.7901L71.6508 73.7926Z"
+														fill="#7F77A6" />
+												</g>
+												<defs>
+													<clipPath id="clip0_138_7554">
+														<rect width="84" height="84" fill="white"
+															transform="translate(60.3333 0.603516) rotate(45)" />
+													</clipPath>
+												</defs>
+											</svg>
+										</span>
+									</button>
+								</li>
+								<li class="nav-item" role="presentation">
+									<button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane"
+										type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">
+										<span class="speakers-nav__name">Спикеры Косметология</span>
+										<span class="speakers-nav__arrow">
+											<svg width="120" height="120" viewBox="0 0 120 120" fill="none"
+												xmlns="http://www.w3.org/2000/svg">
+												<g clip-path="url(#clip0_138_7554)">
+													<path
+														d="M71.6508 73.7926L43.0091 45.1509C42.6577 44.7994 42.4811 44.3869 42.4795 43.9134C42.4778 43.4399 42.6544 43.0274 43.0091 42.676C43.3638 42.3245 43.7763 42.148 44.2465 42.1464C44.7168 42.1447 45.1293 42.3212 45.484 42.676L74.1257 71.3177L74.1232 52.8329C74.1249 52.3494 74.2841 51.9394 74.6009 51.6028C74.9177 51.2663 75.3425 51.0922 75.8754 51.0806C76.4232 51.0807 76.8563 51.2366 77.1747 51.5484C77.4932 51.8602 77.654 52.2884 77.6573 52.8329L77.6573 74.5276C77.6573 74.9566 77.588 75.3278 77.4495 75.6413C77.3109 75.9548 77.1087 76.2443 76.8431 76.51C76.5775 76.7756 76.2879 76.9777 75.9744 77.1163C75.6609 77.2549 75.2889 77.325 74.8583 77.3267L53.166 77.3242C52.6842 77.3242 52.2717 77.1642 51.9286 76.8441C51.5854 76.524 51.4138 76.0901 51.4138 75.5423C51.422 75.0061 51.5804 74.5804 51.889 74.2653C52.1975 73.9501 52.6232 73.7917 53.166 73.7901L71.6508 73.7926Z"
+														fill="#7F77A6" />
+												</g>
+												<defs>
+													<clipPath id="clip0_138_7554">
+														<rect width="84" height="84" fill="white"
+															transform="translate(60.3333 0.603516) rotate(45)" />
+													</clipPath>
+												</defs>
+											</svg>
+										</span>
+									</button>
+								</li>
+								<li class="nav-item" role="presentation">
+									<button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane"
+										type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">
+										<span class="speakers-nav__name">Спикеры Гинекология</span>
+										<span class="speakers-nav__arrow">
+											<svg width="120" height="120" viewBox="0 0 120 120" fill="none"
+												xmlns="http://www.w3.org/2000/svg">
+												<g clip-path="url(#clip0_138_7554)">
+													<path
+														d="M71.6508 73.7926L43.0091 45.1509C42.6577 44.7994 42.4811 44.3869 42.4795 43.9134C42.4778 43.4399 42.6544 43.0274 43.0091 42.676C43.3638 42.3245 43.7763 42.148 44.2465 42.1464C44.7168 42.1447 45.1293 42.3212 45.484 42.676L74.1257 71.3177L74.1232 52.8329C74.1249 52.3494 74.2841 51.9394 74.6009 51.6028C74.9177 51.2663 75.3425 51.0922 75.8754 51.0806C76.4232 51.0807 76.8563 51.2366 77.1747 51.5484C77.4932 51.8602 77.654 52.2884 77.6573 52.8329L77.6573 74.5276C77.6573 74.9566 77.588 75.3278 77.4495 75.6413C77.3109 75.9548 77.1087 76.2443 76.8431 76.51C76.5775 76.7756 76.2879 76.9777 75.9744 77.1163C75.6609 77.2549 75.2889 77.325 74.8583 77.3267L53.166 77.3242C52.6842 77.3242 52.2717 77.1642 51.9286 76.8441C51.5854 76.524 51.4138 76.0901 51.4138 75.5423C51.422 75.0061 51.5804 74.5804 51.889 74.2653C52.1975 73.9501 52.6232 73.7917 53.166 73.7901L71.6508 73.7926Z"
+														fill="#7F77A6" />
+												</g>
+												<defs>
+													<clipPath id="clip0_138_7554">
+														<rect width="84" height="84" fill="white"
+															transform="translate(60.3333 0.603516) rotate(45)" />
+													</clipPath>
+												</defs>
+											</svg>
+										</span>
+									</button>
+								</li>
+							</ul>
+							<div class="tab-content" id="myTabContent">
+								<div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab"
+									tabindex="0">
+									<div class="speakers-tabs__cards">
+										<div class="speakers-tabs__card">
+											<h3 class="section-title">Непронова
+												Ольга Олеговна</h3>
+											<div class="speakers-tabs__info">
+												<div class="speakers-tabs__image box">
+													<img src="img/speakers/image-1.jpg" alt="фото">
+												</div>
+												<div class="speakers-tabs__desc">
+													<ul>
+														<li>к.м.н</li>
+														<li>Врач дерматолог, косметолог</li>
+														<li>Член национальной ассоциации заслуженных врачей и наставников</li>
+													</ul>
+													<a href="#" class="speakers-tabs__more btn-4">подробнее</a>
+												</div>
+											</div>
+										</div>
+										<div class="speakers-tabs__card">
+											<h3 class="section-title">Лебедюк
+												Виктория Георгиевна</h3>
+											<div class="speakers-tabs__info">
+												<div class="speakers-tabs__image box">
+													<img src="img/speakers/image-2.jpg" alt="фото">
+												</div>
+												<div class="speakers-tabs__desc">
+													<ul>
+														<li>к.м.н</li>
+														<li>Автор и соавтор более 100 статей</li>
+														<li>Член и создатель общества взаимопомощи между врачами «Актуальная косметология»</li>
+													</ul>
+													<a href="#" class="speakers-tabs__more btn-4">подробнее</a>
+												</div>
+											</div>
+										</div>
+										<div class="speakers-tabs__card">
+											<h3 class="section-title">Роберти Анна Робертовна</h3>
+											<div class="speakers-tabs__info">
+												<div class="speakers-tabs__image box">
+													<img src="img/speakers/image-3.jpg" alt="фото">
+												</div>
+												<div class="speakers-tabs__desc">
+													<ul>
+														<li>Член экспертного совета</li>
+														<li>Ведущий научный консультант лаборатории R&D Lab (Милан, Италия)</li>
+														<li>Автор собственных методик
+															в области эстетической медицины</li>
+													</ul>
+													<a href="#" class="speakers-tabs__more btn-4">подробнее</a>
+												</div>
+											</div>
+										</div>
+										<div class="speakers-tabs__card">
+											<h3 class="section-title">Усманов
+												Эрадж Шарифович</h3>
+											<div class="speakers-tabs__info">
+												<div class="speakers-tabs__image box">
+													<img src="img/speakers/image-4.jpg" alt="фото">
+												</div>
+												<div class="speakers-tabs__desc">
+													<ul>
+														<li>Автор статей и монографий в областиисследований молекулярной биологии и физиологии</li>
+														<li>Международный тренер по инъекционной косметологии</li>
+														<li>Лицензированный врач Управления Здравоохранения Дубай (ОАЭ)</li>
+													</ul>
+													<a href="#" class="speakers-tabs__more btn-4">подробнее</a>
+												</div>
+											</div>
+										</div>
+										<div class="speakers-tabs__card">
+											<h3 class="section-title">Гамидов
+												Айнутдин Багамаевич</h3>
+											<div class="speakers-tabs__info">
+												<div class="speakers-tabs__image box">
+													<img src="img/speakers/image-5.jpg" alt="фото">
+												</div>
+												<div class="speakers-tabs__desc">
+													<ul>
+														<li>к.м.н</li>
+														<li>Пластический хирург, доцент кафедры пластической хирургии РУДН</li>
+														<li>научный руководитель сети клиник GAMIDOVCLINIC</li>
+													</ul>
+													<a href="#" class="speakers-tabs__more btn-4">подробнее</a>
+												</div>
+											</div>
+										</div>
+										<div class="speakers-tabs__card">
+											<h3 class="section-title">Силантьева
+												Елена Сергеевна</h3>
+											<div class="speakers-tabs__info">
+												<div class="speakers-tabs__image box">
+													<img src="img/speakers/image-6.jpg" alt="фото">
+												</div>
+												<div class="speakers-tabs__desc">
+													<ul>
+														<li>д.м.н.</li>
+														<li>Акушер-гинеколог</li>
+														<li>Заместитель главного врача по реабилитации Клинического госпиталя Лапино-1 «Мать и дитя»
+														</li>
+													</ul>
+													<a href="#" class="speakers-tabs__more btn-4">подробнее</a>
+												</div>
+											</div>
+										</div>
+										<div class="speakers-tabs__card">
+											<h3 class="section-title">Угрюмова
+												Людмила Юрьевна</h3>
+											<div class="speakers-tabs__info">
+												<div class="speakers-tabs__image box">
+													<img src="img/speakers/image-7.jpg" alt="фото">
+												</div>
+												<div class="speakers-tabs__desc">
+													<ul>
+														<li>к.м.н</li>
+														<li>Врач гинеколог-эндокринолог</li>
+														<li>Действительный член ассоциации гинекологов-эндокринологов России, а также Ассоциации
+															гинекологов-эстетистов России</li>
+													</ul>
+													<a href="#" class="speakers-tabs__more btn-4">подробнее</a>
+												</div>
+											</div>
+										</div>
+										<div class="speakers-tabs__card">
+											<h3 class="section-title">Хрипач
+												Елизавета Аркадьевна</h3>
+											<div class="speakers-tabs__info">
+												<div class="speakers-tabs__image box">
+													<img src="img/speakers/image-8.jpg" alt="фото">
+												</div>
+												<div class="speakers-tabs__desc">
+													<ul>
+														<li>к.м.н.</li>
+														<li>Акушер-гинеколог</li>
+														<li>Гинеколог-эндокринолог
+														</li>
+													</ul>
+													<a href="#" class="speakers-tabs__more btn-4">подробнее</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab"
+									tabindex="0">
+									<div class="speakers-tabs__cards">
+										<div class="speakers-tabs__card">
+											<h3 class="section-title">Непронова
+												Ольга Олеговна</h3>
+											<div class="speakers-tabs__info">
+												<div class="speakers-tabs__image box">
+													<img src="img/speakers/image-1.jpg" alt="фото">
+												</div>
+												<div class="speakers-tabs__desc">
+													<ul>
+														<li>к.м.н</li>
+														<li>Врач дерматолог, косметолог</li>
+														<li>Член национальной ассоциации заслуженных врачей и наставников</li>
+													</ul>
+													<a href="#" class="speakers-tabs__more btn-4">подробнее</a>
+												</div>
+											</div>
+										</div>
+										<div class="speakers-tabs__card">
+											<h3 class="section-title">Угрюмова
+												Людмила Юрьевна</h3>
+											<div class="speakers-tabs__info">
+												<div class="speakers-tabs__image box">
+													<img src="img/speakers/image-7.jpg" alt="фото">
+												</div>
+												<div class="speakers-tabs__desc">
+													<ul>
+														<li>к.м.н</li>
+														<li>Врач гинеколог-эндокринолог</li>
+														<li>Действительный член ассоциации гинекологов-эндокринологов России, а также Ассоциации
+															гинекологов-эстетистов России</li>
+													</ul>
+													<a href="#" class="speakers-tabs__more btn-4">подробнее</a>
+												</div>
+											</div>
+										</div>
+										<div class="speakers-tabs__card">
+											<h3 class="section-title">Хрипач
+												Елизавета Аркадьевна</h3>
+											<div class="speakers-tabs__info">
+												<div class="speakers-tabs__image box">
+													<img src="img/speakers/image-8.jpg" alt="фото">
+												</div>
+												<div class="speakers-tabs__desc">
+													<ul>
+														<li>к.м.н.</li>
+														<li>Акушер-гинеколог</li>
+														<li>Гинеколог-эндокринолог
+														</li>
+													</ul>
+													<a href="#" class="speakers-tabs__more btn-4">подробнее</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab"
+									tabindex="0">
+									<div class="speakers-tabs__cards">
+										<div class="speakers-tabs__card">
+											<h3 class="section-title">Угрюмова
+												Людмила Юрьевна</h3>
+											<div class="speakers-tabs__info">
+												<div class="speakers-tabs__image box">
+													<img src="img/speakers/image-7.jpg" alt="фото">
+												</div>
+												<div class="speakers-tabs__desc">
+													<ul>
+														<li>к.м.н</li>
+														<li>Врач гинеколог-эндокринолог</li>
+														<li>Действительный член ассоциации гинекологов-эндокринологов России, а также Ассоциации
+															гинекологов-эстетистов России</li>
+													</ul>
+													<a href="#" class="speakers-tabs__more btn-4">подробнее</a>
+												</div>
+											</div>
+										</div>
+										<div class="speakers-tabs__card">
+											<h3 class="section-title">Хрипач
+												Елизавета Аркадьевна</h3>
+											<div class="speakers-tabs__info">
+												<div class="speakers-tabs__image box">
+													<img src="img/speakers/image-8.jpg" alt="фото">
+												</div>
+												<div class="speakers-tabs__desc">
+													<ul>
+														<li>к.м.н.</li>
+														<li>Акушер-гинеколог</li>
+														<li>Гинеколог-эндокринолог
+														</li>
+													</ul>
+													<a href="#" class="speakers-tabs__more btn-4">подробнее</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<footer class="footer">
+			<div class="footer__wrapper">
+				<div class="footer__block">
+					<div class="footer__left">
+						<div class="footer__logotypes">
+							<a href="#" class="footer__logo">
+								<img src="img/footer/logo.png" alt="лого">
+							</a>
+							<div class="footer__companies">
+								<a href="#" target="_blank" class="footer__company">
+									<img src="img/footer/company-logo-1.svg" alt="лого">
+								</a>
+								<a href="#" target="_blank" class="footer__company">
+									<img src="img/footer/company-logo-2.svg" alt="лого">
+								</a>
+								<a href="#" target="_blank" class="footer__company">
+									<img src="img/footer/company-logo-3.png" alt="лого">
+								</a>
+							</div>
+						</div>
+						<a href="#" target="_blank" class="footer__privacy">Политика в отношении обработки персональных данных</a>
+						<div class="footer__social">
+							<p>Подпишитесь на наши
+								социальные сети:</p>
+							<div class="footer__links">
+								<a href="#" target="_blank" class="footer__link">
+									<span class="footer__icon box">
+										<img src="img/footer/tg-icon.svg" alt="телеграм">
+									</span>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="footer__right">
+						<div class="footer-menu">
+							<div class="footer-menu__col">
+								<ul>
+									<li><a href="#">О SkinElly</a></li>
+									<li>
+										<a class="footer-dropdown" data-bs-toggle="collapse" href="#cosmetology" role="button"
+											aria-expanded="false" aria-controls="collapseExample">
+											<span class="nav-link-icon box">
+												<img src="img/footer/dropdown-icon-1.png" alt="иконка">
+											</span>
+											<span>Косметология</span>
+											<span class="footer-arrow box">
+												<svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<g clip-path="url(#clip0_38_7068)">
+														<path
+															d="M6.42628 9.81109L5.73828 10.5001L12.0263 16.7881L18.3143 10.5001L17.6263 9.81109L12.0263 15.3861L6.42628 9.81109Z"
+															fill="#EEF1F2" />
+													</g>
+													<defs>
+														<clipPath id="clip0_38_7068">
+															<rect width="24" height="24" fill="white" transform="translate(0.0263672)" />
+														</clipPath>
+													</defs>
+												</svg>
+											</span>
+										</a>
+										<div class="collapse footer-collapse" id="cosmetology">
+											<ul>
+												<li><a class="" href="#">Биоревитализанты</a></li>
+												<li><a class="" href="#">Префиллеры</a></li>
+												<li><a class="" href="#">Филлеры</a></li>
+												<li><a class="" href="#">спикеры</a></li>
+												<li><a class="" href="#">Сертификаты</a></li>
+											</ul>
+										</div>
+									</li>
+									<li>
+										<a class="footer-dropdown" data-bs-toggle="collapse" href="#gynecology" role="button"
+											aria-expanded="false" aria-controls="collapseExample">
+											<span class="nav-link-icon box">
+												<img src="img/footer/dropdown-icon-2.png" alt="иконка">
+											</span>
+											<span>Гинекология</span>
+											<span class="footer-arrow box">
+												<svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<g clip-path="url(#clip0_38_7068)">
+														<path
+															d="M6.42628 9.81109L5.73828 10.5001L12.0263 16.7881L18.3143 10.5001L17.6263 9.81109L12.0263 15.3861L6.42628 9.81109Z"
+															fill="#EEF1F2" />
+													</g>
+													<defs>
+														<clipPath id="clip0_38_7068">
+															<rect width="24" height="24" fill="white" transform="translate(0.0263672)" />
+														</clipPath>
+													</defs>
+												</svg>
+											</span>
+										</a>
+										<div class="collapse footer-collapse" id="gynecology">
+											<ul>
+												<li><a class="" href="#">Биоревитализанты</a></li>
+												<li><a class="" href="#">Префиллеры</a></li>
+												<li><a class="" href="#">Филлеры</a></li>
+												<li><a class="" href="#">спикеры</a></li>
+												<li><a class="" href="#">Сертификаты</a></li>
+											</ul>
+										</div>
+									</li>
+									<li><a href="">Мероприятия</a></li>
+									<li><a href="">Спикеры</a></li>
+								</ul>
+							</div>
+							<div class="footer-menu__col">
+								<ul>
+									<li><a href="#">Новости</a></li>
+									<li><a href="">Блог</a></li>
+									<li><a href="">Видео</a></li>
+									<li><a href="">Контакты</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="footer__contacts">
+							<a href="tel:88007004641" class="footer__phone"><span>8 (800)</span> 700-46-41</a>
+							<button class="footer__call btn-1">Заказать обратный звонок</button>
+							<p class="footer__address"> г. Москва, 123100
+								улица Сергея Макеева, 7с2</p>
+							<a href="mailto:info@skinelly.ru" class="footer__mail">info@skinelly.ru</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+			crossorigin="anonymous"></script>
+		<script src="js/jquery-3.7.1.min.js"></script>
+		<script src="js/slick.min.js"></script>
+		<script src="js/script.js"></script>
+</body>
+
+</html>

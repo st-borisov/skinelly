@@ -1,0 +1,863 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<meta name="format-detection" content="telephone=no">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+	<header class="header" id="header">
+		<div class="header__block">
+			<div class="header-top">
+				<a href="#" class="header-top__logo">
+					<img src="img/header/logo.png" alt="лого skinelly">
+				</a>
+				<div class="header-top__contacts">
+					<a href="#" target="_blank" class="header-top__link">
+						<img src="img/header/company-logo.svg" alt="лого">
+					</a>
+					<a href="tel:88007004641" class="header-top__phone"><span>8 (800)</span> 700-46-41</a>
+					<button class="header-top__btn btn-1">заказать обратный звонок</button>
+				</div>
+			</div>
+			<nav class="navbar navbar-expand-lg main-navigation">
+				<button class="navbar-toggler" type="button">
+					<span class="navbar-toggler-icon">
+						<svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<g clip-path="url(#clip0_2001_933)">
+								<path
+									d="M4.66699 20.1482V18.9816H23.3337V20.1482H4.66699ZM4.66699 14.5832V13.4166H23.3337V14.5832H4.66699ZM4.66699 9.01823V7.85156H23.3337V9.01823H4.66699Z"
+									fill="white" />
+							</g>
+							<defs>
+								<clipPath id="clip0_2001_933">
+									<rect width="28" height="28" fill="white" />
+								</clipPath>
+							</defs>
+						</svg>
+					</span>
+				</button>
+				<div class="order-lg-2 sidebar d-lg-flex">
+					<div class="sidebar__header d-lg-none">
+						<a href="#" class="header-top__logo">
+							<img src="img/footer/logo.png" alt="лого skinelly">
+						</a>
+						<button type="button" class="sidebar-close d-lg-none" aria-label="Закрыть">
+							<svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path
+									d="M8.05116 20.8053L7.19482 19.9571L13.1437 14.0001L7.19482 8.07345L8.05116 7.22412L14 13.1718L19.9197 7.22529L20.776 8.07345L14.8272 14.0001L20.776 19.9571L19.9197 20.8053L14 14.86L8.05116 20.8053Z"
+									fill="white" />
+							</svg>
+						</button>
+					</div>
+					<ul class="navbar-nav">
+						<li class="nav-item">
+							<a class="nav-link" href="#">О SkinElly</a>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+								aria-expanded="false">
+								<div class="nav-link-icon box">
+									<img src="img/header/dropdown-icon-1.png" alt="иконка">
+								</div>
+								Косметология
+							</a>
+							<ul class="dropdown-menu">
+								<li><a class="dropdown-item" href="#">Биоревитализанты</a></li>
+								<li><a class="dropdown-item" href="#">Префиллеры</a></li>
+								<li><a class="dropdown-item" href="#">Филлеры</a></li>
+								<li><a class="dropdown-item" href="#">спикеры</a></li>
+								<li><a class="dropdown-item" href="#">Сертификаты</a></li>
+							</ul>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+								aria-expanded="false">
+								<div class="nav-link-icon box">
+									<img src="img/header/dropdown-icon-2.png" alt="иконка">
+								</div>
+								Гинекология
+							</a>
+							<ul class="dropdown-menu">
+								<li><a class="dropdown-item" href="#">Биоревитализанты</a></li>
+								<li><a class="dropdown-item" href="#">Префиллеры</a></li>
+								<li><a class="dropdown-item" href="#">Филлеры</a></li>
+								<li><a class="dropdown-item" href="#">спикеры</a></li>
+								<li><a class="dropdown-item" href="#">Сертификаты</a></li>
+							</ul>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Мероприятия</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Спикеры</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Новости</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Блог</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Видео</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Контакты</a>
+						</li>
+					</ul>
+					<div class="sidebar__contacts d-lg-none">
+						<a href="tel:88007004641" class="header-top__phone"><span>8 (800)</span> 700-46-41</a>
+						<button class="header-top__btn btn-1">заказать обратный звонок</button>
+					</div>
+				</div>
+			</nav>
+		</div>
+	</header>
+
+	<main>
+		<section class="breadcrumbs">
+			<div class="container">
+				<div class="breadcrumbs__block">
+					<h1 class="title-page">Филлеры</h1>
+					<nav aria-label="breadcrumb">
+						<ol class="breadcrumb">
+							<li class="breadcrumb-item"><a href="#">Главная</a></li>
+							<li class="breadcrumb-item"><a href="#">Каталог</a></li>
+							<li class="breadcrumb-item"><a href="#">Косметология</a></li>
+							<li class="breadcrumb-item active" aria-current="page">Филлеры</li>
+						</ol>
+					</nav>
+				</div>
+			</div>
+		</section>
+
+		<section class="types section-b">
+			<div class="container">
+				<div class="row g-4">
+					<div class="col-lg-6 col-12">
+						<div class="types__card">
+							<div class="types__image box">
+								<img src="img/catalog/types/image-1.png" alt="фото">
+							</div>
+							<div class="types__info">
+								<h3 class="name">Филлеры для лица</h3>
+								<a href="#" class="types__btn btn-4">открыть</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-6 col-12">
+						<div class="types__card">
+							<div class="types__image box">
+								<img src="img/catalog/types/image-2.png" alt="фото">
+							</div>
+							<div class="types__info">
+								<h3 class="name">Филлеры для губ</h3>
+								<a href="#" class="types__btn btn-4">открыть</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Филлеры SkinElly -->
+		<section class="research research-benefits section">
+			<div class="container">
+				<div class="row">
+					<div class="col-12">
+						<div class="research__block">
+							<div class="research__left">
+								<div class="research-benefits__header">
+									<h2 class="section-title-two">Филлеры
+										<span>SkinElly</span>
+									</h2>
+									<div class="research-benefits__text">
+										<p>Бифазные филлеры SkinElly применяются для коррекции инволюционных и эстетических проблем.</p>
+									</div>
+								</div>
+								<div class="research-benefits__info">
+									<h3 class="name">Главные достоинства<br>
+										филлеров SkinElly:</h3>
+									<div class="research-benefits__items">
+										<div class="research-benefits__item color_1">
+											<p>Отличная биосовместимость</p>
+										</div>
+										<div class="research-benefits__item color_2">
+											<p>Предсказуемый и безопасный результат</p>
+										</div>
+										<div class="research-benefits__item color_3">
+											<p>Максимально полное выведение из организма</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="research__right">
+								<div class="research__plate">
+									<div class="research__text">
+										<p>Все препараты SkinElly проходят обязательные исследования на:</p>
+									</div>
+									<ul>
+										<li>содержание эндотоксинов, </li>
+										<li>цитотоксичность,</li>
+										<li>стерильность </li>
+										<li>и аллергические реакции.</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Преимущества филлеров SkinElly -->
+		<section class="benefits benefits-fillers section">
+			<div class="container">
+				<div class="row">
+					<div class="col-12">
+						<div class="benefits__block">
+							<h2 class="section-title-two">Преимущества филлеров SkinElly</h2>
+							<div class="benefits-fillers__item benefits__item color-2">
+								<div class="benefits__item_wrap">
+									<div class="benefits__num plate">
+										<p>01</p>
+									</div>
+									<div class="benefits__wrapper">
+										<h3 class="name">Максимально равномерное<br>
+											и комфортное распределение<br>
+											геля в тканях кожи</h3>
+										<p>Благодаря смешанной структуре геля филлеры SkinElly вобрали в себя преимущества как монофазных,
+											так и бифазных гелей. За счет полиразмерной структуры геля обеспечивается высокая пластичность
+											филлера, а следовательно — максимально равномерное и комфортное распределение геля в тканях кожи.
+											Еще один плюс поликомпонентной структуры геля</p>
+									</div>
+								</div>
+							</div>
+							<div class="benefits__content">
+								<div class="benefits__image">
+									<img src="img/catalog/benefits-fillers/image.png" alt="фото">
+								</div>
+								<div class="benefits__items">
+									<div class="benefits__item benefits__item_1 color-1">
+										<div class="benefits__item_wrap">
+											<div class="benefits__num plate">
+												<p>02</p>
+											</div>
+											<div class="benefits__wrapper">
+												<h3 class="name">Прогнозируемый
+													и безопасный результат</h3>
+												<p>При контурной пластике<br>
+													точечными инъекциями</p>
+											</div>
+										</div>
+									</div>
+									<div class="benefits__item benefits__item_2 color-2">
+										<div class="benefits__num plate">
+											<p>03</p>
+										</div>
+										<div class="benefits__wrapper">
+											<h3 class="name">Эластичный и пластичный гель с полиразмерной структурой</h3>
+											<p>идеально адаптируется
+												в зоне введения</p>
+										</div>
+									</div>
+									<div class="benefits__item benefits__item_3 color-4">
+										<div class="benefits__num plate">
+											<p>04</p>
+										</div>
+										<div class="benefits__wrapper">
+											<h3 class="name">Качественная волюмизация </h3>
+											<p>с эффектом биоревитализации</p>
+										</div>
+									</div>
+									<div class="benefits__item benefits__item_4 color-3">
+										<div class="benefits__num plate">
+											<p>05</p>
+										</div>
+										<div class="benefits__wrapper">
+											<h3 class="name">Полная биологическая совместимость</h3>
+											<p>За счет использования стабилизированной гиалуроновой кислоты</p>
+										</div>
+									</div>
+									<div class="benefits__item benefits__item_5 color-2">
+										<div class="benefits__num plate">
+											<p>06</p>
+										</div>
+										<div class="benefits__wrapper">
+											<h3 class="name">Равномерная биодеградация геля</h3>
+											<p>в течение всего времени
+												действия препарата</p>
+										</div>
+									</div>
+									<div class="benefits__item benefits__item_6 color-2">
+										<div class="benefits__num plate">
+											<p>07</p>
+										</div>
+										<div class="benefits__wrapper">
+											<h3 class="name">Восстановление объемов </h3>
+											<p>с сохранением естественного вида лица</p>
+										</div>
+									</div>
+									<div class="benefits__item benefits__item_7 color-1">
+										<div class="benefits__num plate">
+											<p>08</p>
+										</div>
+										<div class="benefits__wrapper">
+											<h3 class="name">Длительный период полного разложения препарата в тканях кожи</h3>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Технология производства -->
+		<section class="production-technology-fillers section">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-12">
+						<div class="production-technology-fillers__block block">
+							<div class="container">
+								<div class="row g-lg-4 g-5">
+									<div class="col-lg-6 col-12">
+										<div class="production-technology-fillers__left">
+											<h2 class="section-title">Технология производства <span>филлеров SkinElly</span></h2>
+											<div class="production-technology-fillers__sub">
+												<p>В основе филлеров стабилизированная гиалуроновая кислота с добавлением нативных фракций ГК,
+													полученная путем сложной ретикуляции.</p>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-6 col-12">
+										<div class="production-technology-fillers__right">
+											<div class="production-technology-fillers__plate">
+												<h4 class="item-name-two">Наличие в составе нестабилизированной
+													гиалуроновой кислоты </h4>
+												<div class="production-technology-fillers__text">
+													<p>гарантирует минимизацию риска развития воспалительных процессов, а также снижение
+														активности
+														протеиназ, разрушающих коллаген.</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Виды филлеров -->
+		<section class="item-types section">
+			<div class="container">
+				<div class="row g-4">
+					<div class="col-lg-4 col-12">
+						<div class="item-types__header">
+							<h2 class="section-title">Виды<br>
+								филлеров<br> <span>SkinElly</span></h2>
+							<div class="item-types__sub">
+								<p>Способ введения — точечная инъекция действующего вещества препарата при помощи шприца с иглой, размер
+									канюли — 0.3 мм.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-12">
+						<div class="item-types__card">
+							<div class="item-types__image">
+								<div class="item-types__box box">
+									<img src="img/catalog/item-types/image-1.png" alt="фото">
+								</div>
+							</div>
+							<div class="item-types__info">
+								<h4 class="item-name-two">Ультралегкий филлер SkinElly Light</h4>
+								<div class="item-types__text">
+									<p>Применяется для коррекции поверхностных морщин
+										и морщин-линий</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-12">
+						<div class="item-types__card">
+							<div class="item-types__image">
+								<div class="item-types__box box">
+									<img src="img/catalog/item-types/image-2.png" alt="фото">
+								</div>
+							</div>
+							<div class="item-types__info">
+								<h4 class="item-name-two">Легкий филлер
+									SkinElly Soft</h4>
+								<div class="item-types__text">
+									<p>Используется для аугментации губ, коррекции поверхностных морщин
+										в периоральной области
+										и в деликатных зонах.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-12">
+						<div class="item-types__card">
+							<div class="item-types__image">
+								<div class="item-types__box box">
+									<img src="img/catalog/item-types/image-3.png" alt="фото">
+								</div>
+							</div>
+							<div class="item-types__info">
+								<h4 class="item-name-two">Филлер средней плотности SkinElly Middle</h4>
+								<div class="item-types__text">
+									<p>Филлеры этого класса применяются при коррекции средних и среднеглубоких морщин и складок, а также
+										для коррекции скул, щек, запавших висков и элевации бровей</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-12">
+						<div class="item-types__card">
+							<div class="item-types__image">
+								<div class="item-types__box box">
+									<img src="img/catalog/item-types/image-4.png" alt="фото">
+								</div>
+							</div>
+							<div class="item-types__info">
+								<h4 class="item-name-two">Плотный филлер
+									SkinElly Intense</h4>
+								<div class="item-types__text">
+									<p>Область применения филлеров SkinElly Intense — коррекция глубоких складок и борозд, инъекционная
+										ринопластика, моделирование объемов в зоне носа, скул, щек, висков.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-12">
+						<div class="item-types__card">
+							<div class="item-types__image">
+								<div class="item-types__box box">
+									<img src="img/catalog/item-types/image-5.png" alt="фото">
+								</div>
+							</div>
+							<div class="item-types__info">
+								<h4 class="item-name-two">Ультраплотный филлер SkinElly Intense Sub-Q</h4>
+								<div class="item-types__text">
+									<p>Филлеры с высокой плотностью структуры прекрасно подходят для быстрой коррекции выраженного
+										дефицита тканей, моделировании контура лица, а также для устранения провисаний кожи.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Препараты для косметологии -->
+		<section class="research cosmetology-preparations section">
+			<div class="container">
+				<div class="row">
+					<div class="col-12">
+						<div class="research__block">
+							<div class="research__left">
+								<h2 class="section-title-two">Препараты<br>
+									для косметологии <br><span>от бренда SkinElly</span></h2>
+							</div>
+							<div class="research__right">
+								<div class="research__plate">
+									<div class="research__text">
+										<p>На сайте SkinElly.ru вы можете купить качественные инъекционные препараты для профессиональных
+											косметологов. В нашем каталоге представлены биоревитализанты, префиллеры, филлеры, также у нас
+											можно найти и приобрести препараты для интимной зоны тела</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Регистрационные удостоверения -->
+		<section class="documents">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-12">
+						<div class="documents__block block">
+							<div class="documents__header">
+								<h2 class="section-title">Регистрационные удостоверения</h2>
+							</div>
+							<div class="documents__wrapper d-flex flex-lg-row justify-content-between g-5 flex-column">
+								<div class="documents__text">
+									<p>Работаю на препаратах SkinElly уже 4 года. Соотношение цена-качество у товаров самое лучшее на
+										рынке. От клиентов получаю только довольные отзывы, работать с продукцией SkinElly очень легко и
+										приятно.</p>
+								</div>
+								<div class="documents__items">
+									<a href="img/documents/image-1.png" class="documents__item"><img src="img/documents/image-1.png"
+											alt="фото документа" class="documents__image" id="image"></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Где купить? -->
+		<section class="form-buy section">
+			<div class="container">
+				<div class="row">
+					<div class="col-12">
+						<div class="form-buy__block">
+							<div class="form-buy__left">
+								<div class="form-buy__header">
+									<h2 class="section-title">Где купить?</h2>
+									<div class="form-buy__text">
+										<p>Оформить заказ на сертифицированные препараты для лица и тела из каталога товаров SkinElly можно
+											на сайте компании с помощью формы обратного звонка и кнопки “Заказать звонок”.</p>
+									</div>
+								</div>
+								<div class="form-buy__image box">
+									<img src="img/form-buy/image.png" alt="фото">
+								</div>
+							</div>
+							<div class="form-buy__right">
+								<div class="form-buy-form">
+									<div class="form-buy-form__header">
+										<h3 class="name">Форма обратной связи</h3>
+										<div class="form-buy-form__text">
+											<p>Оставьте свою контактную информацию (имя и телефон), менеджер с вами свяжется в ближайшее время
+												и проведет консультацию по наличию продукции, ее стоимости, видам оплаты товара и цене доставки.
+											</p>
+										</div>
+									</div>
+									<div class="form-buy-form__forma">
+										<div class="form-buy-form__inputs">
+											<input type="text" class="input form-buy-form__input" placeholder="Введите имя">
+											<input type="text" class="input form-buy-form__input" placeholder="Введите телефон">
+										</div>
+										<div class="form-buy-form__bottom">
+											<div class="checkbox form-buy-form__privacy">
+												<input class="custom-checkbox" type="checkbox" id="remember" name="remember" value="remember"
+													checked>
+												<label for="remember">
+													<span>Нажимая на кнопку, вы соглашаетесь
+														с условиями обработки
+														персональных данных</label>
+											</div>
+											<button class="btn-3 form-buy-form__btn">Заказать звонок</button>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-12">
+						<div class="form-buy__contacts">
+							<div class="form-buy__mail">
+								<p class="section-title">Также связаться с нами можно с помощью
+								</p>
+								<p class="section-title">письма на e-mail адрес
+									<span>info@skinelly.ru</span> <a href="mailto:info@skinelly.ru"
+										class="btn-4 form-buy__write">Написать</a>
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Отзывы -->
+		<section class="reviews">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-12">
+						<div class="reviews__block block">
+							<div class="reviews__wrapper">
+								<div class="reviews__header">
+									<h2 class="section-title">Отзывы</h2>
+									<div class="reviews__arrows slick-arrows">
+										<button class="slick-prev slick-arrow reviews__slider-prev" aria-label="Previous" type="button">
+											<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<g clip-path="url(#clip0_74_5402)">
+													<path
+														d="M22.764 16.6667H7.33333C7.144 16.6667 6.98533 16.6031 6.85733 16.476C6.72933 16.3489 6.66578 16.1902 6.66667 16C6.66755 15.8098 6.73111 15.6511 6.85733 15.524C6.98355 15.3969 7.14222 15.3333 7.33333 15.3333H22.764L17.784 10.3547C17.6542 10.224 17.5867 10.0707 17.5813 9.89468C17.576 9.71868 17.6436 9.55734 17.784 9.41068C17.9316 9.26312 18.0902 9.18846 18.26 9.18668C18.4298 9.1849 18.5884 9.2569 18.736 9.40268L24.58 15.2467C24.6956 15.3622 24.7769 15.4809 24.824 15.6027C24.8711 15.7245 24.8947 15.8569 24.8947 16C24.8947 16.1431 24.8711 16.2756 24.824 16.3973C24.7769 16.5191 24.6956 16.6382 24.58 16.7547L18.736 22.5973C18.6062 22.7271 18.452 22.7951 18.2733 22.8013C18.0947 22.8076 17.9316 22.7369 17.784 22.5893C17.6418 22.4427 17.5698 22.2853 17.568 22.1173C17.5662 21.9493 17.6382 21.792 17.784 21.6453L22.764 16.6667Z"
+														fill="#7F77A6" />
+												</g>
+												<defs>
+													<clipPath id="clip0_74_5402">
+														<rect width="32" height="32" fill="white" />
+													</clipPath>
+												</defs>
+											</svg>
+										</button>
+										<div class="reviews__dots"></div>
+										<button class="slick-next slick-arrow reviews__slider-next" aria-label="Next" type="button">
+											<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<g clip-path="url(#clip0_74_5402)">
+													<path
+														d="M22.764 16.6667H7.33333C7.144 16.6667 6.98533 16.6031 6.85733 16.476C6.72933 16.3489 6.66578 16.1902 6.66667 16C6.66755 15.8098 6.73111 15.6511 6.85733 15.524C6.98355 15.3969 7.14222 15.3333 7.33333 15.3333H22.764L17.784 10.3547C17.6542 10.224 17.5867 10.0707 17.5813 9.89468C17.576 9.71868 17.6436 9.55734 17.784 9.41068C17.9316 9.26312 18.0902 9.18846 18.26 9.18668C18.4298 9.1849 18.5884 9.2569 18.736 9.40268L24.58 15.2467C24.6956 15.3622 24.7769 15.4809 24.824 15.6027C24.8711 15.7245 24.8947 15.8569 24.8947 16C24.8947 16.1431 24.8711 16.2756 24.824 16.3973C24.7769 16.5191 24.6956 16.6382 24.58 16.7547L18.736 22.5973C18.6062 22.7271 18.452 22.7951 18.2733 22.8013C18.0947 22.8076 17.9316 22.7369 17.784 22.5893C17.6418 22.4427 17.5698 22.2853 17.568 22.1173C17.5662 21.9493 17.6382 21.792 17.784 21.6453L22.764 16.6667Z"
+														fill="#7F77A6" />
+												</g>
+												<defs>
+													<clipPath id="clip0_74_5402">
+														<rect width="32" height="32" fill="white" />
+													</clipPath>
+												</defs>
+											</svg>
+										</button>
+									</div>
+								</div>
+								<div class="reviews__slider">
+									<div class="reviews__slide">
+										<div class="reviews__image box">
+											<img src="img/reviews/image.svg" alt="фото">
+										</div>
+										<div class="reviews__info">
+											<h3 class="name">Елена Иванова</h3>
+											<p class="reviews__work">Врач-косметолог клиники "Здоровье"</p>
+											<div class="reviews__text">
+												<p>Работаю на препаратах SkinElly уже 4 года. Соотношение цена-качество у товаров самое лучшее
+													на рынке. От клиентов получаю только довольные отзывы, работать с продукцией SkinElly очень
+													легко и приятно.</p>
+											</div>
+										</div>
+									</div>
+									<div class="reviews__slide">
+										<div class="reviews__image box">
+											<img src="img/reviews/image.svg" alt="фото">
+										</div>
+										<div class="reviews__info">
+											<h3 class="name">Елена Иванова</h3>
+											<p class="reviews__work">Врач-косметолог клиники "Здоровье"</p>
+											<div class="reviews__text">
+												<p>Работаю на препаратах SkinElly уже 4 года. Соотношение цена-качество у товаров самое лучшее
+													на рынке. От клиентов получаю только довольные отзывы, работать с продукцией SkinElly очень
+													легко и приятно.</p>
+											</div>
+										</div>
+									</div>
+									<div class="reviews__slide">
+										<div class="reviews__image box">
+											<img src="img/reviews/image.svg" alt="фото">
+										</div>
+										<div class="reviews__info">
+											<h3 class="name">Елена Иванова</h3>
+											<p class="reviews__work">Врач-косметолог клиники "Здоровье"</p>
+											<div class="reviews__text">
+												<p>Работаю на препаратах SkinElly уже 4 года. Соотношение цена-качество у товаров самое лучшее
+													на рынке. От клиентов получаю только довольные отзывы, работать с продукцией SkinElly очень
+													легко и приятно.</p>
+											</div>
+										</div>
+									</div>
+									<div class="reviews__slide">
+										<div class="reviews__image box">
+											<img src="img/reviews/image.svg" alt="фото">
+										</div>
+										<div class="reviews__info">
+											<h3 class="name">Елена Иванова</h3>
+											<p class="reviews__work">Врач-косметолог клиники "Здоровье"</p>
+											<div class="reviews__text">
+												<p>Работаю на препаратах SkinElly уже 4 года. Соотношение цена-качество у товаров самое лучшее
+													на рынке. От клиентов получаю только довольные отзывы, работать с продукцией SkinElly очень
+													легко и приятно.</p>
+											</div>
+										</div>
+									</div>
+								</div>
+								<button class="reviews__btn btn-3" data-bs-toggle="modal" data-bs-target="#modalReview">Оставить
+									отзыв</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- модальное окно "узнать стоимость" -->
+		<div class="modal fade modal-review" id="modalReview" tabindex="-1" aria-labelledby="exampleModalLabel"
+			aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered">
+				<div class="modal-content">
+					<div class="modal-review__header">
+						<div class="modal-review__left">
+							<h2 class="section-title"><span>Оставьте </span>отзыв</h2>
+							<p>Заполните форму, и мы опубликуем
+								Ваш отзыв на нашем сайте.</p>
+						</div>
+						<button type="button" class="btn-close modal-btn-close" data-bs-dismiss="modal" aria-label="Закрыть">
+							<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path
+									d="M9.20132 23.7772L8.22266 22.8079L15.0213 15.9999L8.22266 9.22653L9.20132 8.25586L16 15.0532L22.7653 8.25719L23.744 9.22653L16.9453 15.9999L23.744 22.8079L22.7653 23.7772L16 16.9825L9.20132 23.7772Z"
+									fill="#79ADD5" />
+							</svg>
+						</button>
+					</div>
+					<div class="modal-review__form">
+						<input type="text" class="modal-review__input input" placeholder="Введите имя">
+						<textarea name="" id="" class="modal-review__textarea textarea" placeholder="Текст отзыва"></textarea>
+						<div class="modal-review__bottom">
+							<div class="checkbox modal-review__privacy">
+								<input class="custom-checkbox" type="checkbox" id="remember" name="remember" value="remember" checked>
+								<label for="remember">
+									<span>Заполняя форму, вы принимаете<br>
+										условия <a href="#" target="_blank">политики конфиденциальности</a></span></label>
+							</div>
+							<button class="btn-3 modal-review__btn">отправить</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</main>
+
+	<footer class="footer">
+		<div class="footer__wrapper">
+			<div class="footer__block">
+				<div class="footer__left">
+					<div class="footer__logotypes">
+						<a href="#" class="footer__logo">
+							<img src="img/footer/logo.png" alt="лого">
+						</a>
+						<div class="footer__companies">
+							<a href="#" target="_blank" class="footer__company">
+								<img src="img/footer/company-logo-1.svg" alt="лого">
+							</a>
+							<a href="#" target="_blank" class="footer__company">
+								<img src="img/footer/company-logo-2.svg" alt="лого">
+							</a>
+							<a href="#" target="_blank" class="footer__company">
+								<img src="img/footer/company-logo-3.png" alt="лого">
+							</a>
+						</div>
+					</div>
+					<a href="#" target="_blank" class="footer__privacy">Политика в отношении обработки персональных данных</a>
+					<div class="footer__social">
+						<p>Подпишитесь на наши
+							социальные сети:</p>
+						<div class="footer__links">
+							<a href="#" target="_blank" class="footer__link">
+								<span class="footer__icon box">
+									<img src="img/footer/tg-icon.svg" alt="телеграм">
+								</span>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="footer__right">
+					<div class="footer-menu">
+						<div class="footer-menu__col">
+							<ul>
+								<li><a href="#">О SkinElly</a></li>
+								<li>
+									<a class="footer-dropdown" data-bs-toggle="collapse" href="#cosmetology" role="button"
+										aria-expanded="false" aria-controls="collapseExample">
+										<span class="nav-link-icon box">
+											<img src="img/footer/dropdown-icon-1.png" alt="иконка">
+										</span>
+										<span>Косметология</span>
+										<span class="footer-arrow box">
+											<svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<g clip-path="url(#clip0_38_7068)">
+													<path
+														d="M6.42628 9.81109L5.73828 10.5001L12.0263 16.7881L18.3143 10.5001L17.6263 9.81109L12.0263 15.3861L6.42628 9.81109Z"
+														fill="#EEF1F2" />
+												</g>
+												<defs>
+													<clipPath id="clip0_38_7068">
+														<rect width="24" height="24" fill="white" transform="translate(0.0263672)" />
+													</clipPath>
+												</defs>
+											</svg>
+										</span>
+									</a>
+									<div class="collapse footer-collapse" id="cosmetology">
+										<ul>
+											<li><a class="" href="#">Биоревитализанты</a></li>
+											<li><a class="" href="#">Префиллеры</a></li>
+											<li><a class="" href="#">Филлеры</a></li>
+											<li><a class="" href="#">спикеры</a></li>
+											<li><a class="" href="#">Сертификаты</a></li>
+										</ul>
+									</div>
+								</li>
+								<li>
+									<a class="footer-dropdown" data-bs-toggle="collapse" href="#gynecology" role="button"
+										aria-expanded="false" aria-controls="collapseExample">
+										<span class="nav-link-icon box">
+											<img src="img/footer/dropdown-icon-2.png" alt="иконка">
+										</span>
+										<span>Гинекология</span>
+										<span class="footer-arrow box">
+											<svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<g clip-path="url(#clip0_38_7068)">
+													<path
+														d="M6.42628 9.81109L5.73828 10.5001L12.0263 16.7881L18.3143 10.5001L17.6263 9.81109L12.0263 15.3861L6.42628 9.81109Z"
+														fill="#EEF1F2" />
+												</g>
+												<defs>
+													<clipPath id="clip0_38_7068">
+														<rect width="24" height="24" fill="white" transform="translate(0.0263672)" />
+													</clipPath>
+												</defs>
+											</svg>
+										</span>
+									</a>
+									<div class="collapse footer-collapse" id="gynecology">
+										<ul>
+											<li><a class="" href="#">Биоревитализанты</a></li>
+											<li><a class="" href="#">Префиллеры</a></li>
+											<li><a class="" href="#">Филлеры</a></li>
+											<li><a class="" href="#">спикеры</a></li>
+											<li><a class="" href="#">Сертификаты</a></li>
+										</ul>
+									</div>
+								</li>
+								<li><a href="">Мероприятия</a></li>
+								<li><a href="">Спикеры</a></li>
+							</ul>
+						</div>
+						<div class="footer-menu__col">
+							<ul>
+								<li><a href="#">Новости</a></li>
+								<li><a href="">Блог</a></li>
+								<li><a href="">Видео</a></li>
+								<li><a href="">Контакты</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="footer__contacts">
+						<a href="tel:88007004641" class="footer__phone"><span>8 (800)</span> 700-46-41</a>
+						<button class="footer__call btn-1">Заказать обратный звонок</button>
+						<p class="footer__address"> г. Москва, 123100
+							улица Сергея Макеева, 7с2</p>
+						<a href="mailto:info@skinelly.ru" class="footer__mail">info@skinelly.ru</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+		crossorigin="anonymous"></script>
+	<script src="js/jquery-3.7.1.min.js"></script>
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script src="js/slick.min.js"></script>
+	<script src="js/script.js"></script>
+</body>
+
+</html>

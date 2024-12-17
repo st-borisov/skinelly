@@ -1,0 +1,881 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<meta name="format-detection" content="telephone=no">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+	<header class="header" id="header">
+		<div class="header__block">
+			<div class="header-top">
+				<a href="#" class="header-top__logo">
+					<img src="img/header/logo.png" alt="лого skinelly">
+				</a>
+				<div class="header-top__contacts">
+					<a href="#" target="_blank" class="header-top__link">
+						<img src="img/header/company-logo.svg" alt="лого">
+					</a>
+					<a href="tel:88007004641" class="header-top__phone"><span>8 (800)</span> 700-46-41</a>
+					<button class="header-top__btn btn-1">заказать обратный звонок</button>
+				</div>
+			</div>
+			<nav class="navbar navbar-expand-lg main-navigation">
+				<button class="navbar-toggler" type="button">
+					<span class="navbar-toggler-icon">
+						<svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<g clip-path="url(#clip0_2001_933)">
+								<path
+									d="M4.66699 20.1482V18.9816H23.3337V20.1482H4.66699ZM4.66699 14.5832V13.4166H23.3337V14.5832H4.66699ZM4.66699 9.01823V7.85156H23.3337V9.01823H4.66699Z"
+									fill="white" />
+							</g>
+							<defs>
+								<clipPath id="clip0_2001_933">
+									<rect width="28" height="28" fill="white" />
+								</clipPath>
+							</defs>
+						</svg>
+					</span>
+				</button>
+				<div class="order-lg-2 sidebar d-lg-flex">
+					<div class="sidebar__header d-lg-none">
+						<a href="#" class="header-top__logo">
+							<img src="img/footer/logo.png" alt="лого skinelly">
+						</a>
+						<button type="button" class="sidebar-close d-lg-none" aria-label="Закрыть">
+							<svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path
+									d="M8.05116 20.8053L7.19482 19.9571L13.1437 14.0001L7.19482 8.07345L8.05116 7.22412L14 13.1718L19.9197 7.22529L20.776 8.07345L14.8272 14.0001L20.776 19.9571L19.9197 20.8053L14 14.86L8.05116 20.8053Z"
+									fill="white" />
+							</svg>
+						</button>
+					</div>
+					<ul class="navbar-nav">
+						<li class="nav-item">
+							<a class="nav-link" href="#">О SkinElly</a>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+								aria-expanded="false">
+								<div class="nav-link-icon box">
+									<img src="img/header/dropdown-icon-1.png" alt="иконка">
+								</div>
+								Косметология
+							</a>
+							<ul class="dropdown-menu">
+								<li><a class="dropdown-item" href="#">Биоревитализанты</a></li>
+								<li><a class="dropdown-item" href="#">Префиллеры</a></li>
+								<li><a class="dropdown-item" href="#">Филлеры</a></li>
+								<li><a class="dropdown-item" href="#">спикеры</a></li>
+								<li><a class="dropdown-item" href="#">Сертификаты</a></li>
+							</ul>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+								aria-expanded="false">
+								<div class="nav-link-icon box">
+									<img src="img/header/dropdown-icon-2.png" alt="иконка">
+								</div>
+								Гинекология
+							</a>
+							<ul class="dropdown-menu">
+								<li><a class="dropdown-item" href="#">Биоревитализанты</a></li>
+								<li><a class="dropdown-item" href="#">Префиллеры</a></li>
+								<li><a class="dropdown-item" href="#">Филлеры</a></li>
+								<li><a class="dropdown-item" href="#">спикеры</a></li>
+								<li><a class="dropdown-item" href="#">Сертификаты</a></li>
+							</ul>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Мероприятия</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Спикеры</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Новости</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Блог</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Видео</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Контакты</a>
+						</li>
+					</ul>
+					<div class="sidebar__contacts d-lg-none">
+						<a href="tel:88007004641" class="header-top__phone"><span>8 (800)</span> 700-46-41</a>
+						<button class="header-top__btn btn-1">заказать обратный звонок</button>
+					</div>
+				</div>
+			</nav>
+		</div>
+	</header>
+
+	<main>
+
+		<section class="breadcrumbs">
+			<div class="container">
+				<div class="breadcrumbs__block">
+					<h1 class="title-page">SkinElly MESO</h1>
+					<nav aria-label="breadcrumb">
+						<ol class="breadcrumb">
+							<li class="breadcrumb-item"><a href="#">Главная</a></li>
+							<li class="breadcrumb-item"><a href="#">Каталог</a></li>
+							<li class="breadcrumb-item"><a href="#">Косметология</a></li>
+							<li class="breadcrumb-item"><a href="#">Филлеры</a></li>
+							<li class="breadcrumb-item"><a href="#">Филлеры для лица</a></li>
+							<li class="breadcrumb-item active" aria-current="page">SkinElly MESO</li>
+						</ol>
+					</nav>
+				</div>
+			</div>
+		</section>
+
+		<!-- блок со слайдером -->
+		<section class="item-main">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-12">
+						<div class="item-main__block block">
+							<div class="item-main__slider">
+								<div class="item-main__slider-nav">
+									<div class="item-main__slide box">
+										<img src="img/item-page/item-main/image-1.jpg" alt="фото">
+									</div>
+									<div class="item-main__slide box">
+										<img src="img/item-page/item-main/image-2.jpg" alt="фото">
+									</div>
+									<div class="item-main__slide box">
+										<img src="img/item-page/item-main/image-3.jpg" alt="фото">
+									</div>
+									<div class="item-main__slide box">
+										<img src="img/item-page/item-main/image-4.jpg" alt="фото">
+									</div>
+								</div>
+								<div class="item-main__slider-for__wrapper">
+									<div class="item-main__slider-for">
+										<div class="item-main__slide box">
+											<img src="img/item-page/item-main/image-1.jpg" alt="фото">
+										</div>
+										<div class="item-main__slide box">
+											<img src="img/item-page/item-main/image-2.jpg" alt="фото">
+										</div>
+										<div class="item-main__slide box">
+											<img src="img/item-page/item-main/image-3.jpg" alt="фото">
+										</div>
+										<div class="item-main__slide box">
+											<img src="img/item-page/item-main/image-4.jpg" alt="фото">
+										</div>
+									</div>
+									<div class="item-main__arrows slick-arrows">
+										<button class="slick-prev slick-arrow item-main__slider-prev" aria-label="Previous" type="button">
+											<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<g clip-path="url(#clip0_21_3017)">
+													<path
+														d="M15.3334 22.7638L15.3334 7.33318C15.3334 7.14385 15.397 6.98518 15.5241 6.85718C15.6512 6.72918 15.8099 6.66562 16.0001 6.66651C16.1903 6.6674 16.349 6.73096 16.4761 6.85718C16.6032 6.9834 16.6668 7.14207 16.6668 7.33318L16.6668 22.7638L21.6454 17.7838C21.7761 17.6541 21.9294 17.5865 22.1054 17.5812C22.2814 17.5758 22.4428 17.6434 22.5894 17.7838C22.737 17.9314 22.8117 18.0901 22.8134 18.2598C22.8152 18.4296 22.7432 18.5883 22.5974 18.7358L16.7534 24.5798C16.6379 24.6954 16.5192 24.7767 16.3974 24.8238C16.2757 24.871 16.1432 24.8945 16.0001 24.8945C15.857 24.8945 15.7246 24.871 15.6028 24.8238C15.481 24.7767 15.3619 24.6954 15.2454 24.5798L9.40278 18.7358C9.273 18.6061 9.205 18.4518 9.19878 18.2732C9.19255 18.0945 9.26322 17.9314 9.41078 17.7838C9.55744 17.6416 9.71478 17.5696 9.88278 17.5678C10.0508 17.5661 10.2081 17.6381 10.3548 17.7838L15.3334 22.7638Z"
+														fill="#79ADD5" />
+												</g>
+												<defs>
+													<clipPath id="clip0_21_3017">
+														<rect width="32" height="32" fill="white" transform="translate(32) rotate(90)" />
+													</clipPath>
+												</defs>
+											</svg>
+										</button>
+										<button class="slick-next slick-arrow item-main__slider-next" aria-label="Next" type="button">
+											<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<g clip-path="url(#clip0_21_3017)">
+													<path
+														d="M15.3334 22.7638L15.3334 7.33318C15.3334 7.14385 15.397 6.98518 15.5241 6.85718C15.6512 6.72918 15.8099 6.66562 16.0001 6.66651C16.1903 6.6674 16.349 6.73096 16.4761 6.85718C16.6032 6.9834 16.6668 7.14207 16.6668 7.33318L16.6668 22.7638L21.6454 17.7838C21.7761 17.6541 21.9294 17.5865 22.1054 17.5812C22.2814 17.5758 22.4428 17.6434 22.5894 17.7838C22.737 17.9314 22.8117 18.0901 22.8134 18.2598C22.8152 18.4296 22.7432 18.5883 22.5974 18.7358L16.7534 24.5798C16.6379 24.6954 16.5192 24.7767 16.3974 24.8238C16.2757 24.871 16.1432 24.8945 16.0001 24.8945C15.857 24.8945 15.7246 24.871 15.6028 24.8238C15.481 24.7767 15.3619 24.6954 15.2454 24.5798L9.40278 18.7358C9.273 18.6061 9.205 18.4518 9.19878 18.2732C9.19255 18.0945 9.26322 17.9314 9.41078 17.7838C9.55744 17.6416 9.71478 17.5696 9.88278 17.5678C10.0508 17.5661 10.2081 17.6381 10.3548 17.7838L15.3334 22.7638Z"
+														fill="#79ADD5" />
+												</g>
+												<defs>
+													<clipPath id="clip0_21_3017">
+														<rect width="32" height="32" fill="white" transform="translate(32) rotate(90)" />
+													</clipPath>
+												</defs>
+											</svg>
+										</button>
+									</div>
+								</div>
+							</div>
+							<div class="item-main__content">
+								<div class="item-main__wrapper">
+									<button class="item-main__share">
+										<span>Поделиться<br>
+											ссылкой</span>
+										<span class="item-main__share_icon">
+											<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<g clip-path="url(#clip0_21_3021)">
+													<path
+														d="M8.82117 27.3334C8.20695 27.3334 7.6945 27.128 7.28384 26.7174C6.87317 26.3067 6.66739 25.7942 6.6665 25.18V12.1534C6.6665 11.54 6.87228 11.028 7.28384 10.6174C7.69539 10.2067 8.20784 10.0009 8.82117 10H10.9732C11.1625 10 11.3212 10.0636 11.4492 10.1907C11.5772 10.3178 11.6407 10.4765 11.6398 10.6667C11.6389 10.8569 11.5754 11.0156 11.4492 11.1427C11.3229 11.2698 11.1643 11.3334 10.9732 11.3334H8.82117C8.61584 11.3334 8.42739 11.4187 8.25584 11.5894C8.08428 11.76 7.99895 11.9485 7.99984 12.1547V25.18C7.99984 25.3845 8.08517 25.5725 8.25584 25.744C8.4265 25.9156 8.6145 26.0009 8.81984 26H23.1798C23.3843 26 23.5723 25.9147 23.7438 25.744C23.9154 25.5734 24.0007 25.3854 23.9998 25.18V12.1534C23.9998 11.9489 23.9145 11.7609 23.7438 11.5894C23.5732 11.4178 23.3847 11.3325 23.1785 11.3334H21.0265C20.8372 11.3334 20.6785 11.2698 20.5505 11.1427C20.4225 11.0156 20.3589 10.8569 20.3598 10.6667C20.3607 10.4765 20.4243 10.3178 20.5505 10.1907C20.6767 10.0636 20.8354 10 21.0265 10H23.1798C23.7941 10 24.3065 10.2058 24.7172 10.6174C25.1278 11.0289 25.3332 11.5414 25.3332 12.1547V25.18C25.3332 25.7934 25.1274 26.3058 24.7158 26.7174C24.3043 27.1289 23.7923 27.3342 23.1798 27.3334H8.82117ZM15.3332 4.15202L13.0052 6.48002C12.8754 6.6098 12.7225 6.6778 12.5465 6.68402C12.3696 6.68935 12.2078 6.61824 12.0612 6.47069C11.9189 6.32491 11.8469 6.16802 11.8452 6.00002C11.8434 5.83202 11.9154 5.67469 12.0612 5.52802L15.2452 2.34402C15.4612 2.12802 15.7127 2.02002 15.9998 2.02002C16.2869 2.02002 16.5385 2.12802 16.7545 2.34402L19.9385 5.52802C20.0629 5.65246 20.1296 5.80446 20.1385 5.98402C20.1474 6.1618 20.0807 6.32446 19.9385 6.47202C19.7909 6.61869 19.6323 6.69202 19.4625 6.69202C19.2927 6.69202 19.1341 6.61869 18.9865 6.47202L16.6665 4.15202V18C16.6665 18.1902 16.6029 18.3489 16.4758 18.476C16.3487 18.6031 16.1901 18.6667 15.9998 18.6667C15.8096 18.6667 15.6509 18.6031 15.5238 18.476C15.3967 18.3489 15.3332 18.1902 15.3332 18V4.15202Z"
+														fill="#13263D" />
+												</g>
+												<defs>
+													<clipPath id="clip0_21_3021">
+														<rect width="32" height="32" fill="white" />
+													</clipPath>
+												</defs>
+											</svg>
+										</span>
+									</button>
+								</div>
+								<div class="item-main__info">
+									<div class="item-main__tag">
+										<div class=""></div>
+										<p>биоревитализант</p>
+									</div>
+									<h3 class="name">Классический биоревитализант для ревитализации кожи</h3>
+									<div class="item-main__text">
+										<p>Препарат SkinElly MESO обладает широким спектром биологической активности и направлен на
+											коррекцию
+											ключевых звеньев патогенеза инволюционных изменений кожи и решение дерматологических проблем.</p>
+									</div>
+									<div class="item-main__buttons">
+										<button class="btn-1 item-main__price" data-bs-toggle="modal" data-bs-target="#modalPrice">Узнать
+											стоимость</button>
+										<a href="" download="" class="item-main__download btn-2">
+											<span>Скачать инструкцию</span>
+											<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path
+													d="M15.9998 24.2827C17.2149 24.2827 18.2367 23.8373 19.0652 22.9467C19.8936 22.056 20.3078 20.9884 20.3078 19.744V13.64H18.9745V19.7427C18.9745 20.6129 18.6892 21.3644 18.1185 21.9973C17.5478 22.6302 16.8416 22.9476 15.9998 22.9493C15.1643 22.9493 14.4594 22.6324 13.8852 21.9987C13.3118 21.3658 13.0252 20.6142 13.0252 19.744V12.4613C13.0252 12.1076 13.1345 11.8009 13.3532 11.5413C13.5718 11.2836 13.8474 11.1547 14.1798 11.1547C14.5158 11.1547 14.7923 11.2836 15.0092 11.5413C15.2261 11.7991 15.3341 12.1058 15.3332 12.4613V19.744H16.6665V12.4613C16.6665 11.7502 16.4296 11.1324 15.9558 10.608C15.4821 10.0836 14.8896 9.82133 14.1785 9.82133C13.4674 9.82133 12.8754 10.0836 12.4025 10.608C11.9296 11.1324 11.6927 11.7502 11.6918 12.4613V19.744C11.6918 20.9884 12.1074 22.056 12.9385 22.9467C13.7687 23.8373 14.7892 24.2827 15.9998 24.2827ZM6.6665 28V4H19.6398L25.3332 9.69333V28H6.6665ZM7.99984 26.6667H23.9998V10.36H18.9732V5.33333H7.99984V26.6667Z"
+													fill="black" />
+											</svg>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- модальное окно "узнать стоимость" -->
+		<div class="modal fade modal-price" id="modalPrice" tabindex="-1" aria-labelledby="exampleModalLabel"
+			aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered">
+				<div class="modal-content">
+					<div class="form-price__block block">
+						<div class="form-price__content">
+							<div class="form-price__wrap">
+								<div class="form-price__header">
+									<h2 class="section-title"><span>Чтобы</span>
+										узнать стоимость</h2>
+									<div class="form-price__text">
+										<p>Пожалуйста, заполните нашу форму.<br>
+											Менеджер свяжется с вами для уточнения данных</p>
+									</div>
+								</div>
+								<div class="form-price__form">
+									<div class="form-price__inputs">
+										<input type="text" class="input form-price__input" placeholder="Введите имя">
+										<input type="text" class="input form-price__input" placeholder="Введите телефон">
+									</div>
+									<div class="checkbox form-price__privacy">
+										<input class="custom-checkbox" type="checkbox" id="remember" name="remember" value="remember"
+											checked>
+										<label for="remember">
+											<span>Заполняя форму, вы принимаете<br>
+												условия <a href="#" target="_blank">политики конфиденциальности</a></span></label>
+									</div>
+									<button class="btn-3 form-price__btn">Узнать стоимость</button>
+								</div>
+							</div>
+						</div>
+						<div class="form-price__right">
+							<div class="form-price__image box">
+								<img src="img/form-price/image.jpg" alt="фото">
+							</div>
+							<button type="button" class="btn-close modal-btn-close" data-bs-dismiss="modal" aria-label="Закрыть">
+								<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path
+										d="M9.20132 23.7772L8.22266 22.8079L15.0213 15.9999L8.22266 9.22653L9.20132 8.25586L16 15.0532L22.7653 8.25719L23.744 9.22653L16.9453 15.9999L23.744 22.8079L22.7653 23.7772L16 16.9825L9.20132 23.7772Z"
+										fill="#79ADD5" />
+								</svg>
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- табы -->
+		<section class="item-tabs section">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-12">
+						<div class="item-tabs__block">
+							<ul class="nav nav-tabs" id="itemTab" role="tablist">
+								<li class="nav-item" role="presentation">
+									<button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane"
+										type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">
+										<span>Характеристики препарата</span>
+										<span class="nav-link-icon">
+											<svg width="120" height="120" viewBox="0 0 120 120" fill="none"
+												xmlns="http://www.w3.org/2000/svg">
+												<path
+													d="M71.3178 73.7926L42.6761 45.1509C42.3247 44.7994 42.1481 44.3869 42.1465 43.9134C42.1448 43.4399 42.3214 43.0274 42.6761 42.676C43.0308 42.3245 43.4433 42.148 43.9135 42.1464C44.3838 42.1447 44.7962 42.3212 45.151 42.676L73.7927 71.3177L73.7902 52.8329C73.7919 52.3494 73.9511 51.9394 74.2679 51.6028C74.5846 51.2663 75.0095 51.0922 75.5424 51.0806C76.0902 51.0807 76.5233 51.2366 76.8417 51.5484C77.1602 51.8602 77.321 52.2884 77.3243 52.8329L77.3243 74.5276C77.3243 74.9566 77.255 75.3278 77.1164 75.6413C76.9778 75.9548 76.7757 76.2443 76.5101 76.51C76.2445 76.7756 75.9549 76.9777 75.6414 77.1163C75.3279 77.2549 74.9559 77.325 74.5252 77.3267L52.833 77.3242C52.3512 77.3242 51.9387 77.1642 51.5955 76.8441C51.2524 76.524 51.0808 76.0901 51.0808 75.5423C51.089 75.0061 51.2474 74.5804 51.5559 74.2653C51.8645 73.9501 52.2902 73.7917 52.833 73.7901L71.3178 73.7926Z"
+													fill="#79ADD5" />
+											</svg>
+										</span>
+									</button>
+								</li>
+								<li class="nav-item" role="presentation">
+									<button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane"
+										type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">
+										<span>Показания</span>
+										<span class="nav-link-icon">
+											<svg width="120" height="120" viewBox="0 0 120 120" fill="none"
+												xmlns="http://www.w3.org/2000/svg">
+												<path
+													d="M71.3178 73.7926L42.6761 45.1509C42.3247 44.7994 42.1481 44.3869 42.1465 43.9134C42.1448 43.4399 42.3214 43.0274 42.6761 42.676C43.0308 42.3245 43.4433 42.148 43.9135 42.1464C44.3838 42.1447 44.7962 42.3212 45.151 42.676L73.7927 71.3177L73.7902 52.8329C73.7919 52.3494 73.9511 51.9394 74.2679 51.6028C74.5846 51.2663 75.0095 51.0922 75.5424 51.0806C76.0902 51.0807 76.5233 51.2366 76.8417 51.5484C77.1602 51.8602 77.321 52.2884 77.3243 52.8329L77.3243 74.5276C77.3243 74.9566 77.255 75.3278 77.1164 75.6413C76.9778 75.9548 76.7757 76.2443 76.5101 76.51C76.2445 76.7756 75.9549 76.9777 75.6414 77.1163C75.3279 77.2549 74.9559 77.325 74.5252 77.3267L52.833 77.3242C52.3512 77.3242 51.9387 77.1642 51.5955 76.8441C51.2524 76.524 51.0808 76.0901 51.0808 75.5423C51.089 75.0061 51.2474 74.5804 51.5559 74.2653C51.8645 73.9501 52.2902 73.7917 52.833 73.7901L71.3178 73.7926Z"
+													fill="#79ADD5" />
+											</svg>
+										</span>
+									</button>
+								</li>
+								<li class="nav-item" role="presentation">
+									<button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane"
+										type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">
+										<span>Области
+											и техника
+											введения</span>
+										<span class="nav-link-icon">
+											<svg width="120" height="120" viewBox="0 0 120 120" fill="none"
+												xmlns="http://www.w3.org/2000/svg">
+												<path
+													d="M71.3178 73.7926L42.6761 45.1509C42.3247 44.7994 42.1481 44.3869 42.1465 43.9134C42.1448 43.4399 42.3214 43.0274 42.6761 42.676C43.0308 42.3245 43.4433 42.148 43.9135 42.1464C44.3838 42.1447 44.7962 42.3212 45.151 42.676L73.7927 71.3177L73.7902 52.8329C73.7919 52.3494 73.9511 51.9394 74.2679 51.6028C74.5846 51.2663 75.0095 51.0922 75.5424 51.0806C76.0902 51.0807 76.5233 51.2366 76.8417 51.5484C77.1602 51.8602 77.321 52.2884 77.3243 52.8329L77.3243 74.5276C77.3243 74.9566 77.255 75.3278 77.1164 75.6413C76.9778 75.9548 76.7757 76.2443 76.5101 76.51C76.2445 76.7756 75.9549 76.9777 75.6414 77.1163C75.3279 77.2549 74.9559 77.325 74.5252 77.3267L52.833 77.3242C52.3512 77.3242 51.9387 77.1642 51.5955 76.8441C51.2524 76.524 51.0808 76.0901 51.0808 75.5423C51.089 75.0061 51.2474 74.5804 51.5559 74.2653C51.8645 73.9501 52.2902 73.7917 52.833 73.7901L71.3178 73.7926Z"
+													fill="#79ADD5" />
+											</svg>
+										</span>
+									</button>
+								</li>
+								<li class="nav-item" role="presentation">
+									<button class="nav-link" id="disabled-tab" data-bs-toggle="tab" data-bs-target="#disabled-tab-pane"
+										type="button" role="tab" aria-controls="disabled-tab-pane" aria-selected="false">
+										<span>Результаты
+											применения</span>
+										<span class="nav-link-icon">
+											<svg width="120" height="120" viewBox="0 0 120 120" fill="none"
+												xmlns="http://www.w3.org/2000/svg">
+												<path
+													d="M71.3178 73.7926L42.6761 45.1509C42.3247 44.7994 42.1481 44.3869 42.1465 43.9134C42.1448 43.4399 42.3214 43.0274 42.6761 42.676C43.0308 42.3245 43.4433 42.148 43.9135 42.1464C44.3838 42.1447 44.7962 42.3212 45.151 42.676L73.7927 71.3177L73.7902 52.8329C73.7919 52.3494 73.9511 51.9394 74.2679 51.6028C74.5846 51.2663 75.0095 51.0922 75.5424 51.0806C76.0902 51.0807 76.5233 51.2366 76.8417 51.5484C77.1602 51.8602 77.321 52.2884 77.3243 52.8329L77.3243 74.5276C77.3243 74.9566 77.255 75.3278 77.1164 75.6413C76.9778 75.9548 76.7757 76.2443 76.5101 76.51C76.2445 76.7756 75.9549 76.9777 75.6414 77.1163C75.3279 77.2549 74.9559 77.325 74.5252 77.3267L52.833 77.3242C52.3512 77.3242 51.9387 77.1642 51.5955 76.8441C51.2524 76.524 51.0808 76.0901 51.0808 75.5423C51.089 75.0061 51.2474 74.5804 51.5559 74.2653C51.8645 73.9501 52.2902 73.7917 52.833 73.7901L71.3178 73.7926Z"
+													fill="#79ADD5" />
+											</svg>
+										</span>
+									</button>
+								</li>
+							</ul>
+							<div class="tab-content" id="myTabContent">
+								<div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab"
+									tabindex="0">
+									<div class="item-tabs-one__block">
+										<div class="item-tabs-one__items">
+											<div class="item-tabs-one__item">
+												<p>Концентрация</p>
+												<span>ГК 24 мг/мл</span>
+											</div>
+											<div class="item-tabs-one__item">
+												<p>Упаковка</p>
+												<span>шприц 1 мл</span>
+											</div>
+											<div class="item-tabs-one__item">
+												<p>Состав</p>
+												<span>Нестабилизированная ГК</span>
+											</div>
+											<div class="item-tabs-one__item">
+												<p>pH</p>
+												<span>7,4</span>
+											</div>
+											<div class="item-tabs-one__item">
+												<p>Молекулярная масса</p>
+												<span>1 200 кДа</span>
+											</div>
+											<div class="item-tabs-one__item">
+												<p>Степень очистки</p>
+												<span>Высокая &lt; 0,25 EU/mg</span>
+											</div>
+											<div class="item-tabs-one__item">
+												<p>Иглы</p>
+												<span>30 G (2 шт)</span>
+											</div>
+											<div class="item-tabs-one__item">
+												<p>Глубина введения</p>
+												<span>интрадермально</span>
+											</div>
+										</div>
+										<div class="item-tabs-one__photo box">
+											<img src="img/item-page/item-tabs/image-tab-1.jpg" alt="фото">
+										</div>
+									</div>
+								</div>
+								<div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab"
+									tabindex="0">
+									<div class="item-tabs-two__block">
+										<div class="item-tabs-two__cards">
+											<div class="item-tabs-two__card card-num">
+												<div class="item-tabs-two__wrapper card-num-wrapper card-num-wrapper">
+													<p>Профилактика и коррекция фото- и хроно- старения</p>
+													<span>01</span>
+												</div>
+											</div>
+											<div class="item-tabs-two__card card-num">
+												<div class="item-tabs-two__wrapper card-num-wrapper">
+													<p>Восполнение гидрорезерва, глубокое увлажнение</p>
+													<span>02</span>
+												</div>
+											</div>
+											<div class="item-tabs-two__card card-num">
+												<div class="item-tabs-two__wrapper card-num-wrapper">
+
+													<p>Повышение плотности, тургора и эластичности кожи</p>
+													<span>03</span>
+												</div>
+											</div>
+											<div class="item-tabs-two__card card-num">
+												<div class="item-tabs-two__wrapper card-num-wrapper">
+
+													<p>Коррекция микро- и макро- рельефа кожи</p>
+													<span>04</span>
+												</div>
+											</div>
+											<div class="item-tabs-two__card card-num">
+												<div class="item-tabs-two__wrapper card-num-wrapper">
+
+													<p>Лифтинг-эффект, работа с дряблыми,
+														ослабленными участками кожи, укрепление тканей</p>
+													<span>05</span>
+												</div>
+											</div>
+											<div class="item-tabs-two__card card-num">
+												<div class="item-tabs-two__wrapper card-num-wrapper">
+
+													<p>Периорбитальная область
+													</p>
+													<span>06</span>
+												</div>
+											</div>
+											<div class="item-tabs-two__card card-num">
+												<div class="item-tabs-two__wrapper card-num-wrapper">
+
+													<p>Рубцы (постакне)</p>
+													<span>07</span>
+												</div>
+											</div>
+											<div class="item-tabs-two__card card-num">
+												<div class="item-tabs-two__wrapper card-num-wrapper">
+
+													<p>Гиперпигментация</p>
+													<span>08</span>
+												</div>
+											</div>
+											<div class="item-tabs-two__card card-num">
+												<div class="item-tabs-two__wrapper card-num-wrapper">
+
+													<p>Кожа курильщика</p>
+													<span>09</span>
+												</div>
+											</div>
+											<div class="item-tabs-two__card card-num">
+												<div class="item-tabs-two__wrapper card-num-wrapper">
+
+													<p>Интимная контурная пластика/РУ РЗН 2022/17725</p>
+													<span>10</span>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab"
+									tabindex="0">
+									<div class="item-tabs-three__block">
+										<div class="item-tabs-three__areas">
+											<h3 class="name">Области введения</h3>
+											<div class="item-tabs-three__items">
+												<div class="item-tabs-three__area">
+													<div class="item-tabs-three__icon box">
+														<img src="img/item-page/item-tabs/tab-2-icon-1.svg" alt="иконка">
+													</div>
+													<p>Лицо</p>
+												</div>
+												<div class="item-tabs-three__area">
+													<div class="item-tabs-three__icon box">
+														<img src="img/item-page/item-tabs/tab-2-icon-2.svg" alt="иконка">
+													</div>
+													<p>Зона<br>
+														вокруг глаз</p>
+												</div>
+												<div class="item-tabs-three__area">
+													<div class="item-tabs-three__icon box">
+														<img src="img/item-page/item-tabs/tab-2-icon-3.svg" alt="иконка">
+													</div>
+													<p>Шея<br>
+														и декольте</p>
+												</div>
+												<div class="item-tabs-three__area">
+													<div class="item-tabs-three__icon box">
+														<img src="img/item-page/item-tabs/tab-2-icon-4.svg" alt="иконка">
+													</div>
+													<p>Руки</p>
+												</div>
+												<div class="item-tabs-three__area">
+													<div class="item-tabs-three__icon box">
+														<img src="img/item-page/item-tabs/tab-2-icon-5.svg" alt="иконка">
+													</div>
+													<p>Губы</p>
+												</div>
+											</div>
+										</div>
+										<div class="item-tabs-three__group">
+											<div class="item-tabs-three__image box">
+												<img src="img/item-page/item-tabs/image-tab-2.png" alt="фото">
+											</div>
+											<div class="item-tabs-three__technique">
+												<h3 class="name">Техника введения</h3>
+												<div class="item-tabs-three__list">
+													<div class="item-tabs-three__type color-1">
+														<p>Микропапульно</p>
+													</div>
+													<div class="item-tabs-three__type color-2">
+														<p>Линейно-ретроградно</p>
+													</div>
+													<div class="item-tabs-three__type color-3">
+														<p>Болюсно по точкам</p>
+													</div>
+												</div>
+											</div>
+											<div class="item-tabs-three__course">
+												<h3 class="name">Курс процедур</h3>
+												<div class="item-tabs-three__text">
+													<p>3-4 процедуры,
+														интервал 2-3 недели</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="tab-pane fade" id="disabled-tab-pane" role="tabpanel" aria-labelledby="disabled-tab"
+									tabindex="0">
+									<div class="item-tabs-four__block">
+										<div class="item-tabs-four__images">
+											<div class="item-tabs-four__wrapper">
+												<div class="item-tabs-four__image box">
+													<img src="img/item-page/item-tabs/before.jpg" alt="фото">
+												</div>
+												<div class="item-tabs-four__plate plate">
+													<p>до</p>
+												</div>
+											</div>
+											<div class="item-tabs-four__wrapper">
+												<div class="item-tabs-four__image box">
+													<img src="img/item-page/item-tabs/after.jpg" alt="фото">
+												</div>
+												<div class="item-tabs-four__plate plate">
+													<p>после</p>
+												</div>
+											</div>
+										</div>
+										<div class="item-tabs-four__content">
+											<div class="item-tabs-four__item">
+												<h3 class="name">Срок применения препарата</h3>
+												<div>
+													<p>2 недели</p>
+												</div>
+											</div>
+											<div class="item-tabs-four__item">
+												<h3 class="name">Проблемные зоны: </h3>
+												<div>
+													<p>подробное описание на проблемных зон на 4-5 строк, с которыми обратился пациент и с
+														которыми помогает бороться указанный препарат</p>
+												</div>
+											</div>
+											<div class="item-tabs-four__item">
+												<h3 class="name">Результат</h3>
+												<div>
+													<p>подробное описание результата на 4-5 строк с результатами, которых удалось добиться с
+														применением указанного препарата</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Преимущества SkinElly MESO -->
+		<section class="benefits section">
+			<div class="container">
+				<div class="row">
+					<div class="col-12">
+						<div class="benefits__block">
+							<h2 class="section-title-two">Преимущества SkinElly MESO</h2>
+							<div class="benefits__content">
+								<div class="benefits__image">
+									<img src="img/benefits/bg-image.png" alt="фото">
+								</div>
+								<div class="benefits__items">
+									<div class="benefits__item benefits__item_1 color-1">
+										<div class="benefits__item_wrap">
+											<div class="benefits__num plate">
+												<p>01</p>
+											</div>
+											<div class="benefits__wrapper">
+												<h3 class="name">Высокая концентрация</h3>
+												<p>24 мг/мл = дополнительная гидратация, выраженная стимуляция и упругость</p>
+											</div>
+										</div>
+									</div>
+									<div class="benefits__item benefits__item_2 color-2">
+										<div class="benefits__num plate">
+											<p>02</p>
+										</div>
+										<div class="benefits__wrapper">
+											<h3 class="name">Удобный межпроцедурный период</h3>
+											<p>от 3-х до 5-ти недель между процедурами без потери состояния увлажненности и ремоделирования
+												кожи</p>
+										</div>
+									</div>
+									<div class="benefits__item benefits__item_3 color-2">
+										<div class="benefits__num plate">
+											<p>03</p>
+										</div>
+										<div class="benefits__wrapper">
+											<h3 class="name">Длительное
+												и стойкое увлажнение кожи</h3>
+										</div>
+									</div>
+									<div class="benefits__item benefits__item_4 color-3">
+										<div class="benefits__num plate">
+											<p>04</p>
+										</div>
+										<div class="benefits__wrapper">
+											<h3 class="name">Хорошее репаративное воздействие</h3>
+											<p>— удобно при подготовке кожи к пилингам и лазерным шлифовкам</p>
+										</div>
+									</div>
+									<div class="benefits__item benefits__item_5 color-4">
+										<div class="benefits__num plate">
+											<p>05</p>
+										</div>
+										<div class="benefits__wrapper">
+											<h3 class="name">Сочетание высокой эффективности и экономической доступности</h3>
+											<p>как для врача, так и для пациента</p>
+										</div>
+									</div>
+									<div class="benefits__item benefits__item_6 color-2">
+										<div class="benefits__num plate">
+											<p>06</p>
+										</div>
+										<div class="benefits__wrapper">
+											<h3 class="name">Высокая востребованность на рынке эстетических услуг</h3>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Хотите узнать стоимость препарата? -->
+		<section class="form-price section">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-12">
+						<div class="form-price__block block">
+							<div class="form-price__content">
+								<div class="form-price__wrap">
+									<div class="form-price__header">
+										<h2 class="section-title"><span>Хотите узнать<br></span>
+											стоимость препарата?</h2>
+										<div class="form-price__text">
+											<p>Заполните форму ниже, и наш менеджер<br>
+												свяжется с Вами, чтобы ответить на все вопросы!</p>
+										</div>
+									</div>
+									<div class="form-price__form">
+										<div class="form-price__inputs">
+											<input type="text" class="input form-price__input" placeholder="Введите имя">
+											<input type="text" class="input form-price__input" placeholder="Введите телефон">
+										</div>
+										<div class="checkbox form-price__privacy">
+											<input class="custom-checkbox" type="checkbox" id="remember" name="remember" value="remember"
+												checked>
+											<label for="remember">
+												<span>Заполняя форму, вы принимаете<br>
+													условия <a href="#" target="_blank">политики конфиденциальности</a></span></label>
+										</div>
+										<button class="btn-3 form-price__btn">Узнать стоимость</button>
+									</div>
+								</div>
+							</div>
+							<div class="form-price__image box">
+								<img src="img/form-price/image.jpg" alt="фото">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+	</main>
+
+	<footer class="footer">
+		<div class="footer__wrapper">
+			<div class="footer__block">
+				<div class="footer__left">
+					<div class="footer__logotypes">
+						<a href="#" class="footer__logo">
+							<img src="img/footer/logo.png" alt="лого">
+						</a>
+						<div class="footer__companies">
+							<a href="#" target="_blank" class="footer__company">
+								<img src="img/footer/company-logo-1.svg" alt="лого">
+							</a>
+							<a href="#" target="_blank" class="footer__company">
+								<img src="img/footer/company-logo-2.svg" alt="лого">
+							</a>
+							<a href="#" target="_blank" class="footer__company">
+								<img src="img/footer/company-logo-3.png" alt="лого">
+							</a>
+						</div>
+					</div>
+					<a href="#" target="_blank" class="footer__privacy">Политика в отношении обработки персональных данных</a>
+					<div class="footer__social">
+						<p>Подпишитесь на наши
+							социальные сети:</p>
+						<div class="footer__links">
+							<a href="#" target="_blank" class="footer__link">
+								<span class="footer__icon box">
+									<img src="img/footer/tg-icon.svg" alt="телеграм">
+								</span>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="footer__right">
+					<div class="footer-menu">
+						<div class="footer-menu__col">
+							<ul>
+								<li><a href="#">О SkinElly</a></li>
+								<li>
+									<a class="footer-dropdown" data-bs-toggle="collapse" href="#cosmetology" role="button"
+										aria-expanded="false" aria-controls="collapseExample">
+										<span class="nav-link-icon box">
+											<img src="img/footer/dropdown-icon-1.png" alt="иконка">
+										</span>
+										<span>Косметология</span>
+										<span class="footer-arrow box">
+											<svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<g clip-path="url(#clip0_38_7068)">
+													<path
+														d="M6.42628 9.81109L5.73828 10.5001L12.0263 16.7881L18.3143 10.5001L17.6263 9.81109L12.0263 15.3861L6.42628 9.81109Z"
+														fill="#EEF1F2" />
+												</g>
+												<defs>
+													<clipPath id="clip0_38_7068">
+														<rect width="24" height="24" fill="white" transform="translate(0.0263672)" />
+													</clipPath>
+												</defs>
+											</svg>
+										</span>
+									</a>
+									<div class="collapse footer-collapse" id="cosmetology">
+										<ul>
+											<li><a class="" href="#">Биоревитализанты</a></li>
+											<li><a class="" href="#">Префиллеры</a></li>
+											<li><a class="" href="#">Филлеры</a></li>
+											<li><a class="" href="#">спикеры</a></li>
+											<li><a class="" href="#">Сертификаты</a></li>
+										</ul>
+									</div>
+								</li>
+								<li>
+									<a class="footer-dropdown" data-bs-toggle="collapse" href="#gynecology" role="button"
+										aria-expanded="false" aria-controls="collapseExample">
+										<span class="nav-link-icon box">
+											<img src="img/footer/dropdown-icon-2.png" alt="иконка">
+										</span>
+										<span>Гинекология</span>
+										<span class="footer-arrow box">
+											<svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<g clip-path="url(#clip0_38_7068)">
+													<path
+														d="M6.42628 9.81109L5.73828 10.5001L12.0263 16.7881L18.3143 10.5001L17.6263 9.81109L12.0263 15.3861L6.42628 9.81109Z"
+														fill="#EEF1F2" />
+												</g>
+												<defs>
+													<clipPath id="clip0_38_7068">
+														<rect width="24" height="24" fill="white" transform="translate(0.0263672)" />
+													</clipPath>
+												</defs>
+											</svg>
+										</span>
+									</a>
+									<div class="collapse footer-collapse" id="gynecology">
+										<ul>
+											<li><a class="" href="#">Биоревитализанты</a></li>
+											<li><a class="" href="#">Префиллеры</a></li>
+											<li><a class="" href="#">Филлеры</a></li>
+											<li><a class="" href="#">спикеры</a></li>
+											<li><a class="" href="#">Сертификаты</a></li>
+										</ul>
+									</div>
+								</li>
+								<li><a href="">Мероприятия</a></li>
+								<li><a href="">Спикеры</a></li>
+							</ul>
+						</div>
+						<div class="footer-menu__col">
+							<ul>
+								<li><a href="#">Новости</a></li>
+								<li><a href="">Блог</a></li>
+								<li><a href="">Видео</a></li>
+								<li><a href="">Контакты</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="footer__contacts">
+						<a href="tel:88007004641" class="footer__phone"><span>8 (800)</span> 700-46-41</a>
+						<button class="footer__call btn-1">Заказать обратный звонок</button>
+						<p class="footer__address"> г. Москва, 123100
+							улица Сергея Макеева, 7с2</p>
+						<a href="mailto:info@skinelly.ru" class="footer__mail">info@skinelly.ru</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+		crossorigin="anonymous"></script>
+	<script src="js/jquery-3.7.1.min.js"></script>
+	<script src="js/slick.min.js"></script>
+	<script src="js/accordion.js"></script>
+	<script src="js/script.js"></script>
+
+	<script>
+		$(document).ready(function () {
+			transformTabsToAccordion(992);
+		});
+	</script>
+</body>
+
+</html>

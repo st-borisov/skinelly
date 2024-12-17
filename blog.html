@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<meta name="format-detection" content="telephone=no">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+	<header class="header" id="header">
+		<div class="header__block">
+			<div class="header-top">
+				<a href="#" class="header-top__logo">
+					<img src="img/header/logo.png" alt="лого skinelly">
+				</a>
+				<div class="header-top__contacts">
+					<a href="#" target="_blank" class="header-top__link">
+						<img src="img/header/company-logo.svg" alt="лого">
+					</a>
+					<a href="tel:88007004641" class="header-top__phone"><span>8 (800)</span> 700-46-41</a>
+					<button class="header-top__btn btn-1">заказать обратный звонок</button>
+				</div>
+			</div>
+			<nav class="navbar navbar-expand-lg main-navigation">
+				<button class="navbar-toggler" type="button">
+					<span class="navbar-toggler-icon">
+						<svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<g clip-path="url(#clip0_2001_933)">
+								<path
+									d="M4.66699 20.1482V18.9816H23.3337V20.1482H4.66699ZM4.66699 14.5832V13.4166H23.3337V14.5832H4.66699ZM4.66699 9.01823V7.85156H23.3337V9.01823H4.66699Z"
+									fill="white" />
+							</g>
+							<defs>
+								<clipPath id="clip0_2001_933">
+									<rect width="28" height="28" fill="white" />
+								</clipPath>
+							</defs>
+						</svg>
+					</span>
+				</button>
+				<div class="order-lg-2 sidebar d-lg-flex">
+					<div class="sidebar__header d-lg-none">
+						<a href="#" class="header-top__logo">
+							<img src="img/footer/logo.png" alt="лого skinelly">
+						</a>
+						<button type="button" class="sidebar-close d-lg-none" aria-label="Закрыть">
+							<svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path
+									d="M8.05116 20.8053L7.19482 19.9571L13.1437 14.0001L7.19482 8.07345L8.05116 7.22412L14 13.1718L19.9197 7.22529L20.776 8.07345L14.8272 14.0001L20.776 19.9571L19.9197 20.8053L14 14.86L8.05116 20.8053Z"
+									fill="white" />
+							</svg>
+						</button>
+					</div>
+					<ul class="navbar-nav">
+						<li class="nav-item">
+							<a class="nav-link" href="#">О SkinElly</a>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+								aria-expanded="false">
+								<div class="nav-link-icon box">
+									<img src="img/header/dropdown-icon-1.png" alt="иконка">
+								</div>
+								Косметология
+							</a>
+							<ul class="dropdown-menu">
+								<li><a class="dropdown-item" href="#">Биоревитализанты</a></li>
+								<li><a class="dropdown-item" href="#">Префиллеры</a></li>
+								<li><a class="dropdown-item" href="#">Филлеры</a></li>
+								<li><a class="dropdown-item" href="#">спикеры</a></li>
+								<li><a class="dropdown-item" href="#">Сертификаты</a></li>
+							</ul>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+								aria-expanded="false">
+								<div class="nav-link-icon box">
+									<img src="img/header/dropdown-icon-2.png" alt="иконка">
+								</div>
+								Гинекология
+							</a>
+							<ul class="dropdown-menu">
+								<li><a class="dropdown-item" href="#">Биоревитализанты</a></li>
+								<li><a class="dropdown-item" href="#">Префиллеры</a></li>
+								<li><a class="dropdown-item" href="#">Филлеры</a></li>
+								<li><a class="dropdown-item" href="#">спикеры</a></li>
+								<li><a class="dropdown-item" href="#">Сертификаты</a></li>
+							</ul>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Мероприятия</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Спикеры</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Новости</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Блог</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Видео</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Контакты</a>
+						</li>
+					</ul>
+					<div class="sidebar__contacts d-lg-none">
+						<a href="tel:88007004641" class="header-top__phone"><span>8 (800)</span> 700-46-41</a>
+						<button class="header-top__btn btn-1">заказать обратный звонок</button>
+					</div>
+				</div>
+			</nav>
+		</div>
+	</header>
+
+	<main>
+
+		<section class="blog-page">
+			<div class="container-fluid">
+				<div class="blog-page__block">
+					<div class="row">
+						<div class="col-12">
+							<div class="container">
+								<div class="row">
+									<div class="col-lg-2 col-12">
+										<nav aria-label="breadcrumb">
+											<ol class="breadcrumb">
+												<li class="breadcrumb-item"><a href="#">Главная</a></li>
+												<li class="breadcrumb-item active" aria-current="page">Новости</li>
+											</ol>
+										</nav>
+										<h2 class="blog__title section-title">
+											Блог
+										</h2>
+									</div>
+									<div class="col-lg-10 col-12">
+										<div class="blog__block">
+											<div class="blog-card">
+												<div class="blog-card__left">
+													<span class="blog-card__date">26.07.24</span>
+													<h3 class="blog-card__title name">
+														Технология применения филлеров в косметологии
+													</h3>
+													<p class="blog-card__text">
+														Рассказываем о подводных камнях в работе с филлерами в области косметологии. Как избежать
+														распространенных ошибок и сделать процедуру приятной и безболезненной? Подробности - в нашей
+														статье.
+													</p>
+													<a href="##" class="blog-card__link">
+														<span class="text">Открыть статью</span>
+														<span class="icon">
+															<svg width="100%" height="100%" viewBox="0 0 32 33" fill="none"
+																xmlns="http://www.w3.org/2000/svg">
+																<g clip-path="url(#clip0_2055_4944)">
+																	<path
+																		d="M22.7638 17.251H7.33318C7.14385 17.251 6.98518 17.1875 6.85718 17.0604C6.72918 16.9333 6.66562 16.7746 6.66651 16.5844C6.6674 16.3941 6.73096 16.2355 6.85718 16.1084C6.9834 15.9813 7.14207 15.9177 7.33318 15.9177H22.7638L17.7838 10.939C17.6541 10.8084 17.5865 10.655 17.5812 10.479C17.5758 10.303 17.6434 10.1417 17.7838 9.99503C17.9314 9.84747 18.0901 9.77281 18.2598 9.77103C18.4296 9.76925 18.5883 9.84125 18.7358 9.98703L24.5798 15.831C24.6954 15.9466 24.7767 16.0653 24.8238 16.187C24.871 16.3088 24.8945 16.4413 24.8945 16.5844C24.8945 16.7275 24.871 16.8599 24.8238 16.9817C24.7767 17.1035 24.6954 17.2226 24.5798 17.339L18.7358 23.1817C18.6061 23.3115 18.4518 23.3795 18.2732 23.3857C18.0945 23.3919 17.9314 23.3213 17.7838 23.1737C17.6416 23.027 17.5696 22.8697 17.5678 22.7017C17.5661 22.5337 17.6381 22.3764 17.7838 22.2297L22.7638 17.251Z"
+																		fill="#79ADD5" />
+																</g>
+																<defs>
+																	<clipPath id="clip0_2055_4944">
+																		<rect width="32" height="32" fill="white" transform="translate(0 0.584473)" />
+																	</clipPath>
+																</defs>
+															</svg>
+														</span>
+													</a>
+												</div>
+												<div class="blog-card__right">
+													<a href="#" class="blog-card__icon color_1">
+														<svg width="100%" height="100%" viewBox="0 0 120 119" fill="none"
+															xmlns="http://www.w3.org/2000/svg">
+															<rect x="10" y="9.58447" width="100" height="100" rx="50" fill="" />
+															<g clip-path="url(#clip0_2055_4953)">
+																<path
+																	d="M73.7926 48.2669L45.1509 76.9086C44.7994 77.26 44.3869 77.4366 43.9134 77.4382C43.4399 77.4399 43.0274 77.2633 42.676 76.9086C42.3245 76.5539 42.148 76.1414 42.1464 75.6712C42.1447 75.2009 42.3212 74.7885 42.676 74.4337L71.3177 45.792L52.8329 45.7945C52.3494 45.7928 51.9394 45.6336 51.6028 45.3169C51.2663 45.0001 51.0922 44.5752 51.0806 44.0423C51.0806 43.4945 51.2366 43.0614 51.5484 42.743C51.8602 42.4245 52.2884 42.2637 52.8329 42.2604L74.5276 42.2604C74.9566 42.2604 75.3278 42.3297 75.6413 42.4683C75.9548 42.6069 76.2443 42.809 76.51 43.0746C76.7756 43.3403 76.9777 43.6298 77.1163 43.9433C77.2549 44.2568 77.325 44.6288 77.3267 45.0595L77.3242 66.7517C77.3242 67.2335 77.1642 67.646 76.8441 67.9892C76.524 68.3324 76.0901 68.5039 75.5423 68.5039C75.0061 68.4957 74.5804 68.3373 74.2653 68.0288C73.9501 67.7202 73.7917 67.2946 73.7901 66.7517L73.7926 48.2669Z"
+																	fill="#79ADD5" />
+															</g>
+															<defs>
+																<clipPath id="clip0_2055_4953">
+																	<rect width="84" height="84" fill="white"
+																		transform="translate(0.603027 59.5845) rotate(-45)" />
+																</clipPath>
+															</defs>
+														</svg>
+													</a>
+													<div class="blog-card__image">
+														<img src="img/blog/img.jpg" alt="Изображение">
+													</div>
+												</div>
+											</div>
+											<div class="blog-card">
+												<div class="blog-card__left">
+													<span class="blog-card__date">26.07.24</span>
+													<h3 class="blog-card__title name">
+														Выбор препарата для контурной пластики в современных реалиях
+													</h3>
+													<p class="blog-card__text">
+														Найти линейку филлеров, оптимальную по цене, качеству и характеристикам – задача не из
+														легких.
+														В
+														настоящее время она усложняется множеством факторов и при этом актуальна как никогда. Как не
+														ошибиться с выбором? Делимся опытом.
+													</p>
+													<a href="##" class="blog-card__link">
+														<span class="text">Открыть статью</span>
+														<span class="icon">
+															<svg width="100%" height="100%" viewBox="0 0 32 33" fill="none"
+																xmlns="http://www.w3.org/2000/svg">
+																<g clip-path="url(#clip0_2055_4944)">
+																	<path
+																		d="M22.7638 17.251H7.33318C7.14385 17.251 6.98518 17.1875 6.85718 17.0604C6.72918 16.9333 6.66562 16.7746 6.66651 16.5844C6.6674 16.3941 6.73096 16.2355 6.85718 16.1084C6.9834 15.9813 7.14207 15.9177 7.33318 15.9177H22.7638L17.7838 10.939C17.6541 10.8084 17.5865 10.655 17.5812 10.479C17.5758 10.303 17.6434 10.1417 17.7838 9.99503C17.9314 9.84747 18.0901 9.77281 18.2598 9.77103C18.4296 9.76925 18.5883 9.84125 18.7358 9.98703L24.5798 15.831C24.6954 15.9466 24.7767 16.0653 24.8238 16.187C24.871 16.3088 24.8945 16.4413 24.8945 16.5844C24.8945 16.7275 24.871 16.8599 24.8238 16.9817C24.7767 17.1035 24.6954 17.2226 24.5798 17.339L18.7358 23.1817C18.6061 23.3115 18.4518 23.3795 18.2732 23.3857C18.0945 23.3919 17.9314 23.3213 17.7838 23.1737C17.6416 23.027 17.5696 22.8697 17.5678 22.7017C17.5661 22.5337 17.6381 22.3764 17.7838 22.2297L22.7638 17.251Z"
+																		fill="#79ADD5" />
+																</g>
+																<defs>
+																	<clipPath id="clip0_2055_4944">
+																		<rect width="32" height="32" fill="white" transform="translate(0 0.584473)" />
+																	</clipPath>
+																</defs>
+															</svg>
+														</span>
+													</a>
+												</div>
+												<div class="blog-card__right">
+													<a href="#" class="blog-card__icon color_2">
+														<svg width="100%" height="100%" viewBox="0 0 120 119" fill="none"
+															xmlns="http://www.w3.org/2000/svg">
+															<rect x="10" y="9.58447" width="100" height="100" rx="50" fill="" />
+															<g clip-path="url(#clip0_2055_4953)">
+																<path
+																	d="M73.7926 48.2669L45.1509 76.9086C44.7994 77.26 44.3869 77.4366 43.9134 77.4382C43.4399 77.4399 43.0274 77.2633 42.676 76.9086C42.3245 76.5539 42.148 76.1414 42.1464 75.6712C42.1447 75.2009 42.3212 74.7885 42.676 74.4337L71.3177 45.792L52.8329 45.7945C52.3494 45.7928 51.9394 45.6336 51.6028 45.3169C51.2663 45.0001 51.0922 44.5752 51.0806 44.0423C51.0806 43.4945 51.2366 43.0614 51.5484 42.743C51.8602 42.4245 52.2884 42.2637 52.8329 42.2604L74.5276 42.2604C74.9566 42.2604 75.3278 42.3297 75.6413 42.4683C75.9548 42.6069 76.2443 42.809 76.51 43.0746C76.7756 43.3403 76.9777 43.6298 77.1163 43.9433C77.2549 44.2568 77.325 44.6288 77.3267 45.0595L77.3242 66.7517C77.3242 67.2335 77.1642 67.646 76.8441 67.9892C76.524 68.3324 76.0901 68.5039 75.5423 68.5039C75.0061 68.4957 74.5804 68.3373 74.2653 68.0288C73.9501 67.7202 73.7917 67.2946 73.7901 66.7517L73.7926 48.2669Z"
+																	fill="#79ADD5" />
+															</g>
+															<defs>
+																<clipPath id="clip0_2055_4953">
+																	<rect width="84" height="84" fill="white"
+																		transform="translate(0.603027 59.5845) rotate(-45)" />
+																</clipPath>
+															</defs>
+														</svg>
+													</a>
+													<div class="blog-card__image">
+														<img src="img/blog/img.jpg" alt="Изображение">
+													</div>
+												</div>
+											</div>
+											<div class="blog-card">
+												<div class="blog-card__left">
+													<span class="blog-card__date">26.07.24</span>
+													<h3 class="blog-card__title name">
+														Технология применения филлеров в косметологии
+													</h3>
+													<p class="blog-card__text">
+														Рассказываем о подводных камнях в работе с филлерами в области косметологии. Как избежать
+														распространенных ошибок и сделать процедуру приятной и безболезненной? Подробности - в нашей
+														статье.
+													</p>
+													<a href="##" class="blog-card__link">
+														<span class="text">Открыть статью</span>
+														<span class="icon">
+															<svg width="100%" height="100%" viewBox="0 0 32 33" fill="none"
+																xmlns="http://www.w3.org/2000/svg">
+																<g clip-path="url(#clip0_2055_4944)">
+																	<path
+																		d="M22.7638 17.251H7.33318C7.14385 17.251 6.98518 17.1875 6.85718 17.0604C6.72918 16.9333 6.66562 16.7746 6.66651 16.5844C6.6674 16.3941 6.73096 16.2355 6.85718 16.1084C6.9834 15.9813 7.14207 15.9177 7.33318 15.9177H22.7638L17.7838 10.939C17.6541 10.8084 17.5865 10.655 17.5812 10.479C17.5758 10.303 17.6434 10.1417 17.7838 9.99503C17.9314 9.84747 18.0901 9.77281 18.2598 9.77103C18.4296 9.76925 18.5883 9.84125 18.7358 9.98703L24.5798 15.831C24.6954 15.9466 24.7767 16.0653 24.8238 16.187C24.871 16.3088 24.8945 16.4413 24.8945 16.5844C24.8945 16.7275 24.871 16.8599 24.8238 16.9817C24.7767 17.1035 24.6954 17.2226 24.5798 17.339L18.7358 23.1817C18.6061 23.3115 18.4518 23.3795 18.2732 23.3857C18.0945 23.3919 17.9314 23.3213 17.7838 23.1737C17.6416 23.027 17.5696 22.8697 17.5678 22.7017C17.5661 22.5337 17.6381 22.3764 17.7838 22.2297L22.7638 17.251Z"
+																		fill="#79ADD5" />
+																</g>
+																<defs>
+																	<clipPath id="clip0_2055_4944">
+																		<rect width="32" height="32" fill="white" transform="translate(0 0.584473)" />
+																	</clipPath>
+																</defs>
+															</svg>
+														</span>
+													</a>
+												</div>
+												<div class="blog-card__right">
+													<a href="#" class="blog-card__icon color_3">
+														<svg width="100%" height="100%" viewBox="0 0 120 119" fill="none"
+															xmlns="http://www.w3.org/2000/svg">
+															<rect x="10" y="9.58447" width="100" height="100" rx="50" fill="" />
+															<g clip-path="url(#clip0_2055_4953)">
+																<path
+																	d="M73.7926 48.2669L45.1509 76.9086C44.7994 77.26 44.3869 77.4366 43.9134 77.4382C43.4399 77.4399 43.0274 77.2633 42.676 76.9086C42.3245 76.5539 42.148 76.1414 42.1464 75.6712C42.1447 75.2009 42.3212 74.7885 42.676 74.4337L71.3177 45.792L52.8329 45.7945C52.3494 45.7928 51.9394 45.6336 51.6028 45.3169C51.2663 45.0001 51.0922 44.5752 51.0806 44.0423C51.0806 43.4945 51.2366 43.0614 51.5484 42.743C51.8602 42.4245 52.2884 42.2637 52.8329 42.2604L74.5276 42.2604C74.9566 42.2604 75.3278 42.3297 75.6413 42.4683C75.9548 42.6069 76.2443 42.809 76.51 43.0746C76.7756 43.3403 76.9777 43.6298 77.1163 43.9433C77.2549 44.2568 77.325 44.6288 77.3267 45.0595L77.3242 66.7517C77.3242 67.2335 77.1642 67.646 76.8441 67.9892C76.524 68.3324 76.0901 68.5039 75.5423 68.5039C75.0061 68.4957 74.5804 68.3373 74.2653 68.0288C73.9501 67.7202 73.7917 67.2946 73.7901 66.7517L73.7926 48.2669Z"
+																	fill="#79ADD5" />
+															</g>
+															<defs>
+																<clipPath id="clip0_2055_4953">
+																	<rect width="84" height="84" fill="white"
+																		transform="translate(0.603027 59.5845) rotate(-45)" />
+																</clipPath>
+															</defs>
+														</svg>
+													</a>
+													<div class="blog-card__image">
+														<img src="img/blog/img.jpg" alt="Изображение">
+													</div>
+												</div>
+											</div>
+											<div class="blog-card">
+												<div class="blog-card__left">
+													<span class="blog-card__date">26.07.24</span>
+													<h3 class="blog-card__title name">
+														Выбор препарата для контурной пластики в современных реалиях
+													</h3>
+													<p class="blog-card__text">
+														Найти линейку филлеров, оптимальную по цене, качеству и характеристикам – задача не из
+														легких.
+														В
+														настоящее время она усложняется множеством факторов и при этом актуальна как никогда. Как не
+														ошибиться с выбором? Делимся опытом.
+													</p>
+													<a href="##" class="blog-card__link">
+														<span class="text">Открыть статью</span>
+														<span class="icon">
+															<svg width="100%" height="100%" viewBox="0 0 32 33" fill="none"
+																xmlns="http://www.w3.org/2000/svg">
+																<g clip-path="url(#clip0_2055_4944)">
+																	<path
+																		d="M22.7638 17.251H7.33318C7.14385 17.251 6.98518 17.1875 6.85718 17.0604C6.72918 16.9333 6.66562 16.7746 6.66651 16.5844C6.6674 16.3941 6.73096 16.2355 6.85718 16.1084C6.9834 15.9813 7.14207 15.9177 7.33318 15.9177H22.7638L17.7838 10.939C17.6541 10.8084 17.5865 10.655 17.5812 10.479C17.5758 10.303 17.6434 10.1417 17.7838 9.99503C17.9314 9.84747 18.0901 9.77281 18.2598 9.77103C18.4296 9.76925 18.5883 9.84125 18.7358 9.98703L24.5798 15.831C24.6954 15.9466 24.7767 16.0653 24.8238 16.187C24.871 16.3088 24.8945 16.4413 24.8945 16.5844C24.8945 16.7275 24.871 16.8599 24.8238 16.9817C24.7767 17.1035 24.6954 17.2226 24.5798 17.339L18.7358 23.1817C18.6061 23.3115 18.4518 23.3795 18.2732 23.3857C18.0945 23.3919 17.9314 23.3213 17.7838 23.1737C17.6416 23.027 17.5696 22.8697 17.5678 22.7017C17.5661 22.5337 17.6381 22.3764 17.7838 22.2297L22.7638 17.251Z"
+																		fill="#79ADD5" />
+																</g>
+																<defs>
+																	<clipPath id="clip0_2055_4944">
+																		<rect width="32" height="32" fill="white" transform="translate(0 0.584473)" />
+																	</clipPath>
+																</defs>
+															</svg>
+														</span>
+													</a>
+												</div>
+												<div class="blog-card__right">
+													<a href="#" class="blog-card__icon color_2">
+														<svg width="100%" height="100%" viewBox="0 0 120 119" fill="none"
+															xmlns="http://www.w3.org/2000/svg">
+															<rect x="10" y="9.58447" width="100" height="100" rx="50" fill="" />
+															<g clip-path="url(#clip0_2055_4953)">
+																<path
+																	d="M73.7926 48.2669L45.1509 76.9086C44.7994 77.26 44.3869 77.4366 43.9134 77.4382C43.4399 77.4399 43.0274 77.2633 42.676 76.9086C42.3245 76.5539 42.148 76.1414 42.1464 75.6712C42.1447 75.2009 42.3212 74.7885 42.676 74.4337L71.3177 45.792L52.8329 45.7945C52.3494 45.7928 51.9394 45.6336 51.6028 45.3169C51.2663 45.0001 51.0922 44.5752 51.0806 44.0423C51.0806 43.4945 51.2366 43.0614 51.5484 42.743C51.8602 42.4245 52.2884 42.2637 52.8329 42.2604L74.5276 42.2604C74.9566 42.2604 75.3278 42.3297 75.6413 42.4683C75.9548 42.6069 76.2443 42.809 76.51 43.0746C76.7756 43.3403 76.9777 43.6298 77.1163 43.9433C77.2549 44.2568 77.325 44.6288 77.3267 45.0595L77.3242 66.7517C77.3242 67.2335 77.1642 67.646 76.8441 67.9892C76.524 68.3324 76.0901 68.5039 75.5423 68.5039C75.0061 68.4957 74.5804 68.3373 74.2653 68.0288C73.9501 67.7202 73.7917 67.2946 73.7901 66.7517L73.7926 48.2669Z"
+																	fill="#79ADD5" />
+															</g>
+															<defs>
+																<clipPath id="clip0_2055_4953">
+																	<rect width="84" height="84" fill="white"
+																		transform="translate(0.603027 59.5845) rotate(-45)" />
+																</clipPath>
+															</defs>
+														</svg>
+													</a>
+													<div class="blog-card__image">
+														<img src="img/blog/img.jpg" alt="Изображение">
+													</div>
+												</div>
+											</div>
+											<div class="blog-card">
+												<div class="blog-card__left">
+													<span class="blog-card__date">26.07.24</span>
+													<h3 class="blog-card__title name">
+														Технология применения филлеров в косметологии
+													</h3>
+													<p class="blog-card__text">
+														Рассказываем о подводных камнях в работе с филлерами в области косметологии. Как избежать
+														распространенных ошибок и сделать процедуру приятной и безболезненной? Подробности - в нашей
+														статье.
+													</p>
+													<a href="##" class="blog-card__link">
+														<span class="text">Открыть статью</span>
+														<span class="icon">
+															<svg width="100%" height="100%" viewBox="0 0 32 33" fill="none"
+																xmlns="http://www.w3.org/2000/svg">
+																<g clip-path="url(#clip0_2055_4944)">
+																	<path
+																		d="M22.7638 17.251H7.33318C7.14385 17.251 6.98518 17.1875 6.85718 17.0604C6.72918 16.9333 6.66562 16.7746 6.66651 16.5844C6.6674 16.3941 6.73096 16.2355 6.85718 16.1084C6.9834 15.9813 7.14207 15.9177 7.33318 15.9177H22.7638L17.7838 10.939C17.6541 10.8084 17.5865 10.655 17.5812 10.479C17.5758 10.303 17.6434 10.1417 17.7838 9.99503C17.9314 9.84747 18.0901 9.77281 18.2598 9.77103C18.4296 9.76925 18.5883 9.84125 18.7358 9.98703L24.5798 15.831C24.6954 15.9466 24.7767 16.0653 24.8238 16.187C24.871 16.3088 24.8945 16.4413 24.8945 16.5844C24.8945 16.7275 24.871 16.8599 24.8238 16.9817C24.7767 17.1035 24.6954 17.2226 24.5798 17.339L18.7358 23.1817C18.6061 23.3115 18.4518 23.3795 18.2732 23.3857C18.0945 23.3919 17.9314 23.3213 17.7838 23.1737C17.6416 23.027 17.5696 22.8697 17.5678 22.7017C17.5661 22.5337 17.6381 22.3764 17.7838 22.2297L22.7638 17.251Z"
+																		fill="#79ADD5" />
+																</g>
+																<defs>
+																	<clipPath id="clip0_2055_4944">
+																		<rect width="32" height="32" fill="white" transform="translate(0 0.584473)" />
+																	</clipPath>
+																</defs>
+															</svg>
+														</span>
+													</a>
+												</div>
+												<div class="blog-card__right">
+													<a href="#" class="blog-card__icon color_3">
+														<svg width="100%" height="100%" viewBox="0 0 120 119" fill="none"
+															xmlns="http://www.w3.org/2000/svg">
+															<rect x="10" y="9.58447" width="100" height="100" rx="50" fill="" />
+															<g clip-path="url(#clip0_2055_4953)">
+																<path
+																	d="M73.7926 48.2669L45.1509 76.9086C44.7994 77.26 44.3869 77.4366 43.9134 77.4382C43.4399 77.4399 43.0274 77.2633 42.676 76.9086C42.3245 76.5539 42.148 76.1414 42.1464 75.6712C42.1447 75.2009 42.3212 74.7885 42.676 74.4337L71.3177 45.792L52.8329 45.7945C52.3494 45.7928 51.9394 45.6336 51.6028 45.3169C51.2663 45.0001 51.0922 44.5752 51.0806 44.0423C51.0806 43.4945 51.2366 43.0614 51.5484 42.743C51.8602 42.4245 52.2884 42.2637 52.8329 42.2604L74.5276 42.2604C74.9566 42.2604 75.3278 42.3297 75.6413 42.4683C75.9548 42.6069 76.2443 42.809 76.51 43.0746C76.7756 43.3403 76.9777 43.6298 77.1163 43.9433C77.2549 44.2568 77.325 44.6288 77.3267 45.0595L77.3242 66.7517C77.3242 67.2335 77.1642 67.646 76.8441 67.9892C76.524 68.3324 76.0901 68.5039 75.5423 68.5039C75.0061 68.4957 74.5804 68.3373 74.2653 68.0288C73.9501 67.7202 73.7917 67.2946 73.7901 66.7517L73.7926 48.2669Z"
+																	fill="#79ADD5" />
+															</g>
+															<defs>
+																<clipPath id="clip0_2055_4953">
+																	<rect width="84" height="84" fill="white"
+																		transform="translate(0.603027 59.5845) rotate(-45)" />
+																</clipPath>
+															</defs>
+														</svg>
+													</a>
+													<div class="blog-card__image">
+														<img src="img/blog/img.jpg" alt="Изображение">
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-12">
+										<nav aria-label="Пример навигации по страницам">
+											<ul class="pagination justify-content-center blog-page__pagination">
+												<li class="page-item">
+													<a class="page-link" href="#" aria-label="Предыдущая">
+														<span aria-hidden="true">
+															<svg width="32" height="32" viewBox="0 0 32 32" fill="none"
+																xmlns="http://www.w3.org/2000/svg">
+																<g clip-path="url(#clip0_108_12574)">
+																	<path
+																		d="M8.69726 16.6676L13.6773 21.6476C13.807 21.7774 13.875 21.9303 13.8813 22.1063C13.8866 22.2823 13.8186 22.4436 13.6773 22.5903C13.5297 22.7378 13.371 22.8125 13.2013 22.8143C13.0315 22.816 12.8728 22.744 12.7253 22.5983L6.88259 16.7543C6.66659 16.5392 6.55859 16.288 6.55859 16.0009C6.55859 15.7138 6.66659 15.4623 6.88259 15.2463L12.7253 9.4036C12.8559 9.27382 13.0101 9.20582 13.1879 9.1996C13.3666 9.19337 13.5297 9.26404 13.6773 9.4116C13.8195 9.55826 13.8915 9.71515 13.8933 9.88226C13.8959 10.0503 13.8239 10.2076 13.6773 10.3543L8.69726 15.3343H25.2039C25.3941 15.3343 25.5533 15.3978 25.6813 15.5249C25.8093 15.652 25.8728 15.8107 25.8719 16.0009C25.871 16.1912 25.8075 16.3498 25.6813 16.4769C25.555 16.604 25.3964 16.6676 25.2053 16.6676H8.69726Z"
+																		fill="white" />
+																</g>
+																<defs>
+																	<clipPath id="clip0_108_12574">
+																		<rect width="32" height="32" fill="white" />
+																	</clipPath>
+																</defs>
+															</svg>
+														</span>
+													</a>
+												</li>
+												<li class="page-item active" aria-current="page"><a class="page-link" href="#">1</a></li>
+												<li class="page-item"><a class="page-link" href="#">2</a></li>
+												<li class="page-item"><a class="page-link" href="#">3</a></li>
+												<li class="page-item">
+													<a class="page-link" href="#" aria-label="Следующая">
+														<span aria-hidden="true">
+															<svg width="32" height="32" viewBox="0 0 32 32" fill="none"
+																xmlns="http://www.w3.org/2000/svg">
+																<g clip-path="url(#clip0_108_26)">
+																	<path
+																		d="M22.7638 16.6675H7.33318C7.14385 16.6675 6.98518 16.604 6.85718 16.4769C6.72918 16.3498 6.66562 16.1911 6.66651 16.0009C6.6674 15.8106 6.73096 15.652 6.85718 15.5249C6.9834 15.3978 7.14207 15.3342 7.33318 15.3342H22.7638L17.7838 10.3555C17.6541 10.2249 17.5865 10.0715 17.5812 9.89553C17.5758 9.71953 17.6434 9.5582 17.7838 9.41153C17.9314 9.26398 18.0901 9.18931 18.2598 9.18753C18.4296 9.18575 18.5883 9.25775 18.7358 9.40353L24.5798 15.2475C24.6954 15.3631 24.7767 15.4818 24.8238 15.6035C24.871 15.7253 24.8945 15.8578 24.8945 16.0009C24.8945 16.144 24.871 16.2764 24.8238 16.3982C24.7767 16.52 24.6954 16.6391 24.5798 16.7555L18.7358 22.5982C18.6061 22.728 18.4518 22.796 18.2732 22.8022C18.0945 22.8084 17.9314 22.7378 17.7838 22.5902C17.6416 22.4435 17.5696 22.2862 17.5678 22.1182C17.5661 21.9502 17.6381 21.7929 17.7838 21.6462L22.7638 16.6675Z"
+																		fill="white" />
+																</g>
+																<defs>
+																	<clipPath id="clip0_108_26">
+																		<rect width="32" height="32" fill="white" />
+																	</clipPath>
+																</defs>
+															</svg>
+														</span>
+													</a>
+												</li>
+											</ul>
+										</nav>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+	</main>
+
+	<footer class="footer">
+		<div class="footer__wrapper">
+			<div class="footer__block">
+				<div class="footer__left">
+					<div class="footer__logotypes">
+						<a href="#" class="footer__logo">
+							<img src="img/footer/logo.png" alt="лого">
+						</a>
+						<div class="footer__companies">
+							<a href="#" target="_blank" class="footer__company">
+								<img src="img/footer/company-logo-1.svg" alt="лого">
+							</a>
+							<a href="#" target="_blank" class="footer__company">
+								<img src="img/footer/company-logo-2.svg" alt="лого">
+							</a>
+							<a href="#" target="_blank" class="footer__company">
+								<img src="img/footer/company-logo-3.png" alt="лого">
+							</a>
+						</div>
+					</div>
+					<a href="#" target="_blank" class="footer__privacy">Политика в отношении обработки персональных данных</a>
+					<div class="footer__social">
+						<p>Подпишитесь на наши
+							социальные сети:</p>
+						<div class="footer__links">
+							<a href="#" target="_blank" class="footer__link">
+								<span class="footer__icon box">
+									<img src="img/footer/tg-icon.svg" alt="телеграм">
+								</span>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="footer__right">
+					<div class="footer-menu">
+						<div class="footer-menu__col">
+							<ul>
+								<li><a href="#">О SkinElly</a></li>
+								<li>
+									<a class="footer-dropdown" data-bs-toggle="collapse" href="#cosmetology" role="button"
+										aria-expanded="false" aria-controls="collapseExample">
+										<span class="nav-link-icon box">
+											<img src="img/footer/dropdown-icon-1.png" alt="иконка">
+										</span>
+										<span>Косметология</span>
+										<span class="footer-arrow box">
+											<svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<g clip-path="url(#clip0_38_7068)">
+													<path
+														d="M6.42628 9.81109L5.73828 10.5001L12.0263 16.7881L18.3143 10.5001L17.6263 9.81109L12.0263 15.3861L6.42628 9.81109Z"
+														fill="#EEF1F2" />
+												</g>
+												<defs>
+													<clipPath id="clip0_38_7068">
+														<rect width="24" height="24" fill="white" transform="translate(0.0263672)" />
+													</clipPath>
+												</defs>
+											</svg>
+										</span>
+									</a>
+									<div class="collapse footer-collapse" id="cosmetology">
+										<ul>
+											<li><a class="" href="#">Биоревитализанты</a></li>
+											<li><a class="" href="#">Префиллеры</a></li>
+											<li><a class="" href="#">Филлеры</a></li>
+											<li><a class="" href="#">спикеры</a></li>
+											<li><a class="" href="#">Сертификаты</a></li>
+										</ul>
+									</div>
+								</li>
+								<li>
+									<a class="footer-dropdown" data-bs-toggle="collapse" href="#gynecology" role="button"
+										aria-expanded="false" aria-controls="collapseExample">
+										<span class="nav-link-icon box">
+											<img src="img/footer/dropdown-icon-2.png" alt="иконка">
+										</span>
+										<span>Гинекология</span>
+										<span class="footer-arrow box">
+											<svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<g clip-path="url(#clip0_38_7068)">
+													<path
+														d="M6.42628 9.81109L5.73828 10.5001L12.0263 16.7881L18.3143 10.5001L17.6263 9.81109L12.0263 15.3861L6.42628 9.81109Z"
+														fill="#EEF1F2" />
+												</g>
+												<defs>
+													<clipPath id="clip0_38_7068">
+														<rect width="24" height="24" fill="white" transform="translate(0.0263672)" />
+													</clipPath>
+												</defs>
+											</svg>
+										</span>
+									</a>
+									<div class="collapse footer-collapse" id="gynecology">
+										<ul>
+											<li><a class="" href="#">Биоревитализанты</a></li>
+											<li><a class="" href="#">Префиллеры</a></li>
+											<li><a class="" href="#">Филлеры</a></li>
+											<li><a class="" href="#">спикеры</a></li>
+											<li><a class="" href="#">Сертификаты</a></li>
+										</ul>
+									</div>
+								</li>
+								<li><a href="">Мероприятия</a></li>
+								<li><a href="">Спикеры</a></li>
+							</ul>
+						</div>
+						<div class="footer-menu__col">
+							<ul>
+								<li><a href="#">Новости</a></li>
+								<li><a href="">Блог</a></li>
+								<li><a href="">Видео</a></li>
+								<li><a href="">Контакты</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="footer__contacts">
+						<a href="tel:88007004641" class="footer__phone"><span>8 (800)</span> 700-46-41</a>
+						<button class="footer__call btn-1">Заказать обратный звонок</button>
+						<p class="footer__address"> г. Москва, 123100
+							улица Сергея Макеева, 7с2</p>
+						<a href="mailto:info@skinelly.ru" class="footer__mail">info@skinelly.ru</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+		crossorigin="anonymous"></script>
+	<script src="js/jquery-3.7.1.min.js"></script>
+	<script src="js/slick.min.js"></script>
+	<script src="js/script.js"></script>
+</body>
+
+</html>
